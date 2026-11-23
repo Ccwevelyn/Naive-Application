@@ -1,0 +1,5201 @@
+{
+  "schools": 703,
+  "zh_names": 0,
+  "zh_used": 0,
+  "missed_the": [
+    "Universidad de Buenos Aires",
+    "University of Zurich (UZH)",
+    "Utrecht University",
+    "Indian Institute of Technology Delhi (IITD)",
+    "Indian Institute of Technology Bombay (IITB)",
+    "Indian Institute of Technology Madras (IITM)",
+    "Universität Freiburg",
+    "Universidad Autónoma de Madrid",
+    "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "Universidad de Los Andes Colombia",
+    "Eberhard Karls Universität Tübingen",
+    "Indian Institute of Technology Kharagpur (IITKGP)",
+    "Technische Universität Dresden",
+    "Indian Institute of Technology Kanpur (IITK)",
+    "Universität Erlangen-Nürnberg",
+    "Universidade Estadual de Campinas (Unicamp)",
+    "University of Padova",
+    "American University of Beirut (AUB)",
+    "Politecnico di Torino",
+    "Georg-August-Universität Göttingen",
+    "Hamad Bin Khalifa University",
+    "Taylor's University (Malaysia)",
+    "Technische Universität Darmstadt",
+    "Bandung Institute of Technology (ITB)",
+    "Université Paris 1 Panthéon-Sorbonne",
+    "Universidad Nacional de Colombia",
+    "Universitat Pompeu Fabra",
+    "UCSI University",
+    "Universität zu Köln",
+    "Universidad Carlos III de Madrid",
+    "Indiana University Bloomington",
+    "Universität Stuttgart",
+    "Goethe Universität Frankfurt am Main",
+    "L.N. Gumilyov Eurasian National University",
+    "Universidade Federal do Rio de Janeiro",
+    "Universidade Nova de Lisboa",
+    "Satbayev University (previously Kazakh Technical University named after K.I. Satpaev)",
+    "Indian Institute of Technology Guwahati (IITG)",
+    "Universidad Politécnica de Madrid",
+    "Indian Institute of Technology Roorkee (IITR)",
+    "Pontificia Universidad Católica del Perú (PUCP)",
+    "Universität Innsbruck",
+    "Università degli Studi di Roma - Tor Vergata",
+    "Virginia Polytechnic Institute (Virginia Tech)",
+    "University of Chinese Academy of Sciences (UCAS)",
+    "Sciences Po Paris",
+    "Bogazici University",
+    "Pontificia Universidad Javeriana",
+    "Saint Petersburg State University",
+    "Northeastern University",
+    "Southeast University, China",
+    "Ruhr-Universität Bochum",
+    "Lappeenranta-Lahti University of Technology LUT",
+    "IPB University (aka Bogor Agricultural University)",
+    "Sabanci University",
+    "Institut National des Sciences Appliquées de Lyon (INSA)",
+    "Julius-Maximilians-Universität Würzburg",
+    "Universität Mannheim",
+    "Université de Strasbourg",
+    "Universitat Politecnica de Valencia",
+    "Università degli Studi di Pavia",
+    "Aix-Marseille University",
+    "Universitat de Valencia",
+    "Université de Montpellier",
+    "Leibniz Universität Hannover",
+    "IE University",
+    "National Research University Higher School of Economics (HSE, Moscow)",
+    "Universität Konstanz",
+    "Belarusian State University",
+    "Universität Bayreuth",
+    "Johannes Gutenberg Universität Mainz",
+    "Universidad Nacional de La Plata",
+    "Università Vita-Salute San Raffaele",
+    "Laval University",
+    "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU)",
+    "Universidad de Sevilla",
+    "Jilin University",
+    "Moscow Institute of Physics and Technology State University",
+    "Universität Potsdam",
+    "University of Science and Technology Beijing",
+    "Technische Universität Bergakademie Freiberg",
+    "Universidad de Santiago de Chile - USACH",
+    "Université de Bordeaux",
+    "Justus-Liebig-Universität Gießen",
+    "Universidad de Costa Rica",
+    "China Agricultural University",
+    "Institut Teknologi Sepuluh Nopember (ITS)",
+    "INTI International University",
+    "Singapore Management University",
+    "Pontificia Universidad Católica Argentina Santa María de los Buenos Aires - UCA",
+    "Singapore University of Technology and Design",
+    "Universidad Austral - Argentina",
+    "Universität Bremen",
+    "Universität Leipzig",
+    "Universiti Teknologi MARA - UiTM",
+    "University of Milano-Bicocca",
+    "Universität Ulm",
+    "University of Hawaii at Mañoa",
+    "Northumbria University at Newcastle",
+    "Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi)",
+    "Renmin (People’s) University of China",
+    "Pontificia Universidade Católica do Rio de Janeiro (PUC - Rio)",
+    "Chandigarh University",
+    "Universität Jena",
+    "Universidad Adolfo Ibáñez",
+    "Universidad Pontificia Comillas",
+    "Université Claude Bernard Lyon 1",
+    "Université Paul Sabatier Toulouse III",
+    "American University of Ras Al Khaimah ( AURAK )",
+    "Universidade Federal de Minas Gerais",
+    "Asia Pacific University of Technology and Innovation (APU) Malaysia",
+    "Canadian University of Dubai",
+    "University of Ulster",
+    "Applied Science University - Bahrain",
+    "International Islamic University Malaysia (IIUM)",
+    "Universidad de Concepción",
+    "Christian-Albrechts-Universität zu Kiel",
+    "Dongguk University",
+    "Saint Joseph University of Beirut (USJ)",
+    "Zhengzhou University",
+    "Diponegoro University",
+    "Oregon State University",
+    "Universidad del Pais Vasco",
+    "Yeshiva University",
+    "Kazakh National Pedagogical University Abai",
+    "Universidade de Santiago de Compostela",
+    "Universität des Saarlandes",
+    "Lincoln University College, Malaysia",
+    "Universidad de Zaragoza",
+    "Abo Akademi University",
+    "Libera Universita' di Bolzano",
+    "University of Tromso, The Arctic University of Norway",
+    "MGIMO University",
+    "Paris Lodron University of Salzburg",
+    "Universidad de la República (UdelaR)",
+    "China University of Mining and Technology",
+    "De La Salle University",
+    "Université de Lille",
+    "University of Agriculture, Faisalabad",
+    "Kingston University, London",
+    "Indian Institute of Technology Hyderabad (IITH)",
+    "University of Mumbai",
+    "University of Oklahoma",
+    "Karl-Franzens-Universität Graz",
+    "Technische Universität Dortmund",
+    "American University in Dubai",
+    "HUFS - Hankuk (Korea) University of Foreign Studies",
+    "Ritsumeikan University",
+    "University of Brawijaya",
+    "Baku State University",
+    "Universität Regensburg",
+    "Vellore Institute of Technology (VIT), Vellore, India",
+    "Ankara Üniversitesi",
+    "Kazakh National Agrarian University",
+    "Universidad de Alcalá",
+    "University of Missouri, Columbia"
+  ],
+  "missed_us": [
+    "Pontificia Universidad Católica de Chile",
+    "Universität Freiburg",
+    "Ecole Normale Supérieure de Lyon",
+    "Universidad Autónoma de Madrid",
+    "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "University of Minnesota (System)",
+    "Universidad de Los Andes Colombia",
+    "Eberhard Karls Universität Tübingen",
+    "Technische Universität Dresden",
+    "Universität Erlangen-Nürnberg",
+    "Universidade Estadual de Campinas (Unicamp)",
+    "University of Padova",
+    "Politecnico di Torino",
+    "Georg-August-Universität Göttingen",
+    "Technische Universität Darmstadt",
+    "Université Paris 1 Panthéon-Sorbonne",
+    "Charles University",
+    "Universitat Pompeu Fabra",
+    "Universität zu Köln",
+    "University of Galway / Ollscoil na Gaillimhe",
+    "Universitas Airlangga",
+    "Vrije Universiteit Brussel (VUB)",
+    "Université Paris Cité",
+    "Universität Stuttgart",
+    "Goethe Universität Frankfurt am Main",
+    "Universidade Federal do Rio de Janeiro",
+    "Universidade Nova de Lisboa",
+    "Satbayev University (previously Kazakh Technical University named after K.I. Satpaev)",
+    "Universidad Politécnica de Madrid",
+    "Universität Innsbruck",
+    "Università degli Studi di Roma - Tor Vergata",
+    "Virginia Polytechnic Institute (Virginia Tech)",
+    "RUDN University",
+    "Universiti Brunei Darussalam (UBD)",
+    "Bogazici University",
+    "National University of Sciences And Technology (NUST) Islamabad",
+    "Brunel University of London",
+    "Southeast University, China",
+    "Universitat Politècnica de Catalunya",
+    "Ruhr-Universität Bochum",
+    "Institut National des Sciences Appliquées de Lyon (INSA)",
+    "Università Cattolica del Sacro Cuore",
+    "Julius-Maximilians-Universität Würzburg",
+    "Universität Mannheim",
+    "University of Aveiro",
+    "Université de Strasbourg",
+    "Universitat Politecnica de Valencia",
+    "Università degli Studi di Pavia",
+    "Universitat de Valencia",
+    "Université de Montpellier",
+    "Leibniz Universität Hannover",
+    "IE University",
+    "Universität Konstanz",
+    "Universität Bayreuth",
+    "Johannes Gutenberg Universität Mainz",
+    "Universidad Nacional de La Plata",
+    "Università Vita-Salute San Raffaele",
+    "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU)",
+    "Universidad de Sevilla",
+    "Universität Potsdam",
+    "Technische Universität Bergakademie Freiberg",
+    "Universiti Utara Malaysia (UUM)",
+    "Justus-Liebig-Universität Gießen",
+    "Shoolini University of Biotechnology and Management Sciences",
+    "INTI International University",
+    "Ateneo de Manila University",
+    "Pontificia Universidad Católica Argentina Santa María de los Buenos Aires - UCA",
+    "Universidad Austral - Argentina",
+    "Universität Bremen",
+    "Lebanese American University",
+    "Universität Leipzig",
+    "University of Milano-Bicocca",
+    "Universität Ulm",
+    "Northumbria University at Newcastle",
+    "Universiti Tenaga Nasional (UNITEN)",
+    "Hitotsubashi University",
+    "Al Ain University",
+    "Universität Jena",
+    "Universiti Teknologi Brunei",
+    "Universidad Pontificia Comillas",
+    "Université Claude Bernard Lyon 1",
+    "Université Paul Sabatier Toulouse III",
+    "American University of Ras Al Khaimah ( AURAK )",
+    "Universidade Federal de Minas Gerais",
+    "Asia Pacific University of Technology and Innovation (APU) Malaysia",
+    "Management and Science University - MSU Malaysia",
+    "Canadian University of Dubai",
+    "Applied Science University - Bahrain",
+    "Christian-Albrechts-Universität zu Kiel",
+    "Saint Joseph University of Beirut (USJ)",
+    "Universidad del Pais Vasco",
+    "Kazakh National Pedagogical University Abai",
+    "Universidade de Santiago de Compostela",
+    "Universität des Saarlandes",
+    "Lincoln University College, Malaysia",
+    "Universidad de Zaragoza",
+    "Libera Universita' di Bolzano",
+    "MGIMO University",
+    "Paris Lodron University of Salzburg",
+    "Universidad de la República (UdelaR)",
+    "De La Salle University",
+    "Kingston University, London",
+    "University of Mumbai",
+    "Karl-Franzens-Universität Graz",
+    "Technische Universität Dortmund",
+    "Beirut Arab University",
+    "American University in Dubai",
+    "University of Brawijaya",
+    "Baku State University",
+    "Universität Regensburg",
+    "Ankara Üniversitesi",
+    "Kazakh National Agrarian University",
+    "University of Klagenfurt"
+  ],
+  "sample": [
+    {
+      "en": "Massachusetts Institute of Technology (MIT)",
+      "zh": "麻省理工学院",
+      "qs": 1,
+      "the": 2,
+      "us": 2
+    },
+    {
+      "en": "Imperial College London",
+      "zh": "帝国理工学院",
+      "qs": 2,
+      "the": 8,
+      "us": 14
+    },
+    {
+      "en": "Stanford University",
+      "zh": "斯坦福大学",
+      "qs": 3,
+      "the": 5,
+      "us": 3
+    },
+    {
+      "en": "University of Oxford",
+      "zh": "牛津大学",
+      "qs": 4,
+      "the": 1,
+      "us": 4
+    },
+    {
+      "en": "Harvard University",
+      "zh": "哈佛大学",
+      "qs": 5,
+      "the": 5,
+      "us": 1
+    },
+    {
+      "en": "University of Cambridge",
+      "zh": "剑桥大学",
+      "qs": 6,
+      "the": 3,
+      "us": 5
+    },
+    {
+      "en": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "zh": "苏黎世联邦理工学院",
+      "qs": 7,
+      "the": 11,
+      "us": 33
+    },
+    {
+      "en": "National University of Singapore (NUS)",
+      "zh": "新加坡国立大学",
+      "qs": 8,
+      "the": 17,
+      "us": 16
+    },
+    {
+      "en": "UCL (University College London)",
+      "zh": "伦敦大学学院",
+      "qs": 9,
+      "the": 22,
+      "us": 9
+    },
+    {
+      "en": "California Institute of Technology (Caltech)",
+      "zh": "加州理工学院",
+      "qs": 10,
+      "the": 7,
+      "us": 23
+    },
+    {
+      "en": "The University of Hong Kong",
+      "zh": "香港大学",
+      "qs": 11,
+      "the": 33,
+      "us": 40
+    },
+    {
+      "en": "Nanyang Technological University, Singapore (NTU Singapore)",
+      "zh": "南洋理工大学",
+      "qs": 12,
+      "the": 31,
+      "us": 27
+    },
+    {
+      "en": "University of Chicago",
+      "zh": "芝加哥大学",
+      "qs": 13,
+      "the": 15,
+      "us": 25
+    },
+    {
+      "en": "Peking University",
+      "zh": "北京大学",
+      "qs": 14,
+      "the": 13,
+      "us": 19
+    },
+    {
+      "en": "University of Pennsylvania",
+      "zh": "宾夕法尼亚大学",
+      "qs": 15,
+      "the": 14,
+      "us": 17
+    },
+    {
+      "en": "Cornell University",
+      "zh": "康奈尔大学",
+      "qs": 16,
+      "the": 18,
+      "us": 13
+    },
+    {
+      "en": "Tsinghua University",
+      "zh": "清华大学",
+      "qs": 17,
+      "the": 12,
+      "us": 6
+    },
+    {
+      "en": "University of California, Berkeley (UCB)",
+      "zh": "加州大学伯克利分校",
+      "qs": 17,
+      "the": 9,
+      "us": 7
+    },
+    {
+      "en": "The University of Melbourne",
+      "zh": "墨尔本大学",
+      "qs": 19,
+      "the": 37,
+      "us": 28
+    },
+    {
+      "en": "The University of New South Wales",
+      "zh": "新南威尔士大学",
+      "qs": 20,
+      "the": 1201,
+      "us": 33
+    },
+    {
+      "en": "Yale University",
+      "zh": "耶鲁大学",
+      "qs": 21,
+      "the": 10,
+      "us": 8
+    },
+    {
+      "en": "École Polytechnique Fédérale de Lausanne",
+      "zh": "洛桑联邦理工学院",
+      "qs": 22,
+      "the": 35,
+      "us": 80
+    },
+    {
+      "en": "Technical University of Munich",
+      "zh": "慕尼黑工业大学",
+      "qs": 22,
+      "the": 27,
+      "us": 73
+    },
+    {
+      "en": "Johns Hopkins University",
+      "zh": "约翰斯·霍普金斯大学",
+      "qs": 24,
+      "the": 16,
+      "us": 17
+    },
+    {
+      "en": "Princeton University",
+      "zh": "普林斯顿大学",
+      "qs": 25,
+      "the": 3,
+      "us": 14
+    },
+    {
+      "en": "The University of Sydney",
+      "zh": "悉尼大学",
+      "qs": 25,
+      "the": 53,
+      "us": 31
+    },
+    {
+      "en": "McGill University",
+      "zh": "麦吉尔大学",
+      "qs": 27,
+      "the": 41,
+      "us": 68
+    },
+    {
+      "en": "PSL University",
+      "zh": "巴黎文理研究大学",
+      "qs": 28,
+      "the": 48,
+      "us": 108
+    },
+    {
+      "en": "University of Toronto",
+      "zh": "多伦多大学",
+      "qs": 29,
+      "the": 21,
+      "us": 20
+    },
+    {
+      "en": "Fudan University",
+      "zh": "复旦大学",
+      "qs": 30,
+      "the": 36,
+      "us": 49
+    },
+    {
+      "en": "King's College London (KCL)",
+      "zh": "伦敦国王学院",
+      "qs": 31,
+      "the": 38,
+      "us": 42
+    },
+    {
+      "en": "Australian National University",
+      "zh": "澳大利亚国立大学",
+      "qs": 32,
+      "the": 73,
+      "us": 81
+    },
+    {
+      "en": "The Chinese University of Hong Kong",
+      "zh": "香港中文大学",
+      "qs": 32,
+      "the": 41,
+      "us": 28
+    },
+    {
+      "en": "University of Edinburgh",
+      "zh": "爱丁堡大学",
+      "qs": 34,
+      "the": 29,
+      "us": 41
+    },
+    {
+      "en": "The University of Manchester",
+      "zh": "曼彻斯特大学",
+      "qs": 35,
+      "the": 56,
+      "us": 68
+    },
+    {
+      "en": "Monash University",
+      "zh": "蒙纳士大学",
+      "qs": 36,
+      "the": 58,
+      "us": 38
+    },
+    {
+      "en": "The University of Tokyo",
+      "zh": "东京大学",
+      "qs": 36,
+      "the": 26,
+      "us": 72
+    },
+    {
+      "en": "Columbia University",
+      "zh": "哥伦比亚大学",
+      "qs": 38,
+      "the": 20,
+      "us": 10
+    },
+    {
+      "en": "Seoul National University",
+      "zh": "首尔国立大学",
+      "qs": 38,
+      "the": 58,
+      "us": 121
+    },
+    {
+      "en": "University of British Columbia",
+      "zh": "不列颠哥伦比亚大学",
+      "qs": 40,
+      "the": 45,
+      "us": 42
+    },
+    {
+      "en": "Institut Polytechnique de Paris",
+      "zh": "巴黎理工学院",
+      "qs": 41,
+      "the": 68,
+      "us": 328
+    },
+    {
+      "en": "Northwestern University",
+      "zh": "西北大学",
+      "qs": 42,
+      "the": 30,
+      "us": 26
+    },
+    {
+      "en": "The University of Queensland",
+      "zh": "昆士兰大学",
+      "qs": 42,
+      "the": 80,
+      "us": 42
+    },
+    {
+      "en": "The Hong Kong University of Science and Technology",
+      "zh": "香港科技大学",
+      "qs": 44,
+      "the": 58,
+      "us": 82
+    },
+    {
+      "en": "University of Michigan-Ann Arbor",
+      "zh": "密歇根大学安娜堡分校",
+      "qs": 45,
+      "the": 23,
+      "us": 21
+    },
+    {
+      "en": "University of California, Los Angeles (UCLA)",
+      "zh": "加州大学洛杉矶分校",
+      "qs": 46,
+      "the": 18,
+      "us": 11
+    },
+    {
+      "en": "Delft University of Technology",
+      "zh": "代尔夫特理工大学",
+      "qs": 47,
+      "the": 57,
+      "us": 170
+    },
+    {
+      "en": "Shanghai Jiao Tong University",
+      "zh": "上海交通大学",
+      "qs": 47,
+      "the": 40,
+      "us": 37
+    },
+    {
+      "en": "Zhejiang University",
+      "zh": "浙江大学",
+      "qs": 49,
+      "the": 39,
+      "us": 35
+    },
+    {
+      "en": "Yonsei University",
+      "zh": "延世大学",
+      "qs": 50,
+      "the": 86,
+      "us": 135
+    },
+    {
+      "en": "University of Bristol",
+      "zh": "布里斯托大学",
+      "qs": 51,
+      "the": 80,
+      "us": 115
+    },
+    {
+      "en": "Carnegie Mellon University",
+      "zh": "卡内基梅隆大学",
+      "qs": 52,
+      "the": 24,
+      "us": 112
+    },
+    {
+      "en": "The University of Amsterdam",
+      "zh": "阿姆斯特丹大学",
+      "qs": 53,
+      "the": 62,
+      "us": 39
+    },
+    {
+      "en": "The Hong Kong Polytechnic University",
+      "zh": "香港理工大学",
+      "qs": 54,
+      "the": 80,
+      "us": 52
+    },
+    {
+      "en": "New York University (NYU)",
+      "zh": "纽约大学",
+      "qs": 55,
+      "the": 31,
+      "us": 36
+    },
+    {
+      "en": "London School of Economics and Political Science (LSE)",
+      "zh": "伦敦政治经济学院",
+      "qs": 56,
+      "the": 52,
+      "us": 223
+    },
+    {
+      "en": "Kyoto University",
+      "zh": "京都大学",
+      "qs": 57,
+      "the": 61,
+      "us": 162
+    },
+    {
+      "en": "Ludwig-Maximilians-Universität München",
+      "zh": "慕尼黑大学",
+      "qs": 58,
+      "the": 34,
+      "us": 50
+    },
+    {
+      "en": "Universiti Malaya (UM)",
+      "zh": "马来亚大学",
+      "qs": 58,
+      "the": 201,
+      "us": 311
+    },
+    {
+      "en": "KU Leuven",
+      "zh": "鲁汶大学",
+      "qs": 60,
+      "the": 46,
+      "us": 48
+    },
+    {
+      "en": "Korea University",
+      "zh": "高丽大学",
+      "qs": 61,
+      "the": 156,
+      "us": 255
+    },
+    {
+      "en": "Duke University",
+      "zh": "杜克大学",
+      "qs": 62,
+      "the": 28,
+      "us": 30
+    },
+    {
+      "en": "City University of Hong Kong",
+      "zh": "香港城市大学",
+      "qs": 63,
+      "the": 73,
+      "us": 40
+    },
+    {
+      "en": "National Taiwan University (NTU)",
+      "zh": "台湾大学",
+      "qs": 63,
+      "the": 140,
+      "us": 233
+    },
+    {
+      "en": "The University of Auckland",
+      "zh": "奥克兰大学",
+      "qs": 65,
+      "the": 156,
+      "us": 117
+    },
+    {
+      "en": "University of California, San Diego (UCSD)",
+      "zh": "加州大学圣地亚哥分校",
+      "qs": 66,
+      "the": 47,
+      "us": 23
+    },
+    {
+      "en": "King Fahd University of Petroleum & Minerals",
+      "zh": "法赫德国王石油与矿产大学",
+      "qs": 67,
+      "the": 184,
+      "us": 322
+    },
+    {
+      "en": "University of Texas at Austin",
+      "zh": "德克萨斯大学奥斯汀分校",
+      "qs": 68,
+      "the": 50,
+      "us": 56
+    },
+    {
+      "en": "Brown University",
+      "zh": "布朗大学",
+      "qs": 69,
+      "the": 65,
+      "us": 144
+    },
+    {
+      "en": "Université Paris-Saclay",
+      "zh": "巴黎萨克雷大学",
+      "qs": 70,
+      "the": 68,
+      "us": 82
+    },
+    {
+      "en": "University of Illinois at Urbana-Champaign",
+      "zh": "伊利诺伊大学厄巴纳-香槟分校",
+      "qs": 70,
+      "the": 41,
+      "us": 98
+    },
+    {
+      "en": "Lund University",
+      "zh": "隆德大学",
+      "qs": 72,
+      "the": 95,
+      "us": 124
+    },
+    {
+      "en": "Sorbonne University (merged from Paris IV & UPMC)",
+      "zh": "索邦大学",
+      "qs": 72,
+      "the": 76,
+      "us": 67
+    },
+    {
+      "en": "The University of Warwick",
+      "zh": "华威大学",
+      "qs": 74,
+      "the": 122,
+      "us": 200
+    },
+    {
+      "en": "Trinity College Dublin, The University of Dublin",
+      "zh": "都柏林三一学院",
+      "qs": 75,
+      "the": 173,
+      "us": 213
+    },
+    {
+      "en": "University of Birmingham",
+      "zh": "伯明翰大学",
+      "qs": 76,
+      "the": 98,
+      "us": 97
+    },
+    {
+      "en": "The University of Western Australia",
+      "zh": "西澳大学",
+      "qs": 77,
+      "the": 153,
+      "us": 90
+    },
+    {
+      "en": "KTH Royal Institute of Technology",
+      "zh": "皇家理工学院",
+      "qs": 78,
+      "the": 98,
+      "us": 249
+    },
+    {
+      "en": "University of Glasgow",
+      "zh": "格拉斯哥大学",
+      "qs": 79,
+      "the": 84,
+      "us": 77
+    },
+    {
+      "en": "Ruprecht-Karls-Universität Heidelberg",
+      "zh": "海德堡大学",
+      "qs": 80,
+      "the": 49,
+      "us": 68
+    },
+    {
+      "en": "University of Washington",
+      "zh": "华盛顿大学",
+      "qs": 81,
+      "the": 25,
+      "us": 12
+    },
+    {
+      "en": "Adelaide University",
+      "zh": "阿德莱德大学",
+      "qs": 82,
+      "the": 133,
+      "us": 85
+    },
+    {
+      "en": "Pennsylvania State University",
+      "zh": "宾夕法尼亚州立大学",
+      "qs": 82,
+      "the": 108,
+      "us": 92
+    },
+    {
+      "en": "Universidad de Buenos Aires",
+      "zh": "布宜诺斯艾利斯大学",
+      "qs": 84,
+      "the": null,
+      "us": 348
+    },
+    {
+      "en": "Tokyo Institute of Technology",
+      "zh": "东京工业大学",
+      "qs": 85,
+      "the": 166,
+      "us": 338
+    },
+    {
+      "en": "University of Leeds",
+      "zh": "利兹大学",
+      "qs": 86,
+      "the": 118,
+      "us": 146
+    },
+    {
+      "en": "University of Southampton",
+      "zh": "南安普敦大学",
+      "qs": 87,
+      "the": 129,
+      "us": 125
+    },
+    {
+      "en": "Boston University",
+      "zh": "波士顿大学",
+      "qs": 88,
+      "the": 76,
+      "us": 96
+    },
+    {
+      "en": "Freie Universität Berlin",
+      "zh": "柏林自由大学",
+      "qs": 88,
+      "the": 113,
+      "us": 63
+    },
+    {
+      "en": "Purdue University",
+      "zh": "普渡大学",
+      "qs": 88,
+      "the": 85,
+      "us": 152
+    },
+    {
+      "en": "The University of Osaka",
+      "zh": "大阪大学",
+      "qs": 91,
+      "the": 151,
+      "us": 264
+    },
+    {
+      "en": "The University of Sheffield",
+      "zh": "谢菲尔德大学",
+      "qs": 92,
+      "the": 108,
+      "us": 186
+    },
+    {
+      "en": "Uppsala University",
+      "zh": "乌普萨拉大学",
+      "qs": 93,
+      "the": 128,
+      "us": 146
+    },
+    {
+      "en": "Durham University",
+      "zh": "杜伦大学",
+      "qs": 94,
+      "the": 175,
+      "us": 270
+    },
+    {
+      "en": "University of Alberta",
+      "zh": "阿尔伯塔大学",
+      "qs": 94,
+      "the": 119,
+      "us": 164
+    },
+    {
+      "en": "University of Technology Sydney",
+      "zh": "悉尼科技大学",
+      "qs": 96,
+      "the": 145,
+      "us": 85
+    },
+    {
+      "en": "The University of Nottingham",
+      "zh": "诺丁汉大学",
+      "qs": 97,
+      "the": 145,
+      "us": 155
+    },
+    {
+      "en": "Karlsruhe Institute of Technology (KIT)",
+      "zh": "卡尔斯鲁厄理工学院",
+      "qs": 98,
+      "the": 166,
+      "us": 299
+    },
+    {
+      "en": "Politecnico di Milano",
+      "zh": "米兰理工大学",
+      "qs": 98,
+      "the": 201,
+      "us": 340
+    },
+    {
+      "en": "University of Zurich (UZH)",
+      "zh": "苏黎世大学",
+      "qs": 100,
+      "the": null,
+      "us": 64
+    },
+    {
+      "en": "University of Copenhagen",
+      "zh": "哥本哈根大学",
+      "qs": 101,
+      "the": 90,
+      "us": 45
+    },
+    {
+      "en": "Pohang University of Science And Technology (POSTECH)",
+      "zh": "浦项科技大学",
+      "qs": 102,
+      "the": 141,
+      "us": 345
+    },
+    {
+      "en": "Nanjing University",
+      "zh": "南京大学",
+      "qs": 103,
+      "the": 62,
+      "us": 77
+    },
+    {
+      "en": "Utrecht University",
+      "zh": "乌得勒支大学",
+      "qs": 103,
+      "the": null,
+      "us": 54
+    },
+    {
+      "en": "Lomonosov Moscow State University",
+      "zh": "莫斯科国立大学",
+      "qs": 105,
+      "the": 133,
+      "us": 517
+    },
+    {
+      "en": "Rheinisch-Westfälische Technische Hochschule Aachen",
+      "zh": "亚琛工业大学",
+      "qs": 105,
+      "the": 92,
+      "us": 223
+    },
+    {
+      "en": "Technical University of Denmark",
+      "zh": "丹麦技术大学",
+      "qs": 107,
+      "the": 121,
+      "us": 189
+    },
+    {
+      "en": "Universidade de São Paulo (USP)",
+      "zh": "圣保罗大学",
+      "qs": 108,
+      "the": 201,
+      "us": 134
+    },
+    {
+      "en": "Tohoku University",
+      "zh": "东北大学",
+      "qs": 109,
+      "the": 103,
+      "us": 268
+    },
+    {
+      "en": "Queen Mary University of London (QMUL)",
+      "zh": "伦敦玛丽女王大学",
+      "qs": 110,
+      "the": 134,
+      "us": 101
+    },
+    {
+      "en": "University of Wisconsin-Madison",
+      "zh": "威斯康星大学麦迪逊分校",
+      "qs": 110,
+      "the": 53,
+      "us": 60
+    },
+    {
+      "en": "Qatar University",
+      "zh": "卡塔尔大学",
+      "qs": 112,
+      "the": 201,
+      "us": 262
+    },
+    {
+      "en": "University of St Andrews",
+      "zh": "圣安德鲁斯大学",
+      "qs": 113,
+      "the": 162,
+      "us": 375
+    },
+    {
+      "en": "Aalto University",
+      "zh": "阿尔托大学",
+      "qs": 114,
+      "the": 195,
+      "us": 290
+    },
+    {
+      "en": "University of California, Davis",
+      "zh": "加州大学戴维斯分校",
+      "qs": 114,
+      "the": 64,
+      "us": 95
+    },
+    {
+      "en": "Pontificia Universidad Católica de Chile",
+      "zh": "智利天主教大学",
+      "qs": 116,
+      "the": 401,
+      "us": null
+    },
+    {
+      "en": "University of Helsinki",
+      "zh": "赫尔辛基大学",
+      "qs": 116,
+      "the": 105,
+      "us": 109
+    },
+    {
+      "en": "University College Dublin",
+      "zh": "都柏林大学",
+      "qs": 118,
+      "the": 201,
+      "us": 258
+    },
+    {
+      "en": "Leiden University",
+      "zh": "莱顿大学",
+      "qs": 119,
+      "the": 70,
+      "us": 61
+    },
+    {
+      "en": "Rice University",
+      "zh": "莱斯大学",
+      "qs": 119,
+      "the": 103,
+      "us": 201
+    },
+    {
+      "en": "University of Oslo",
+      "zh": "奥斯陆大学",
+      "qs": 119,
+      "the": 113,
+      "us": 105
+    },
+    {
+      "en": "University of Waterloo",
+      "zh": "滑铁卢大学",
+      "qs": 119,
+      "the": 162,
+      "us": 199
+    },
+    {
+      "en": "Georgia Institute of Technology",
+      "zh": "佐治亚理工学院",
+      "qs": 123,
+      "the": 41,
+      "us": 94
+    },
+    {
+      "en": "Indian Institute of Technology Delhi (IITD)",
+      "zh": "印度理工学院德里分校",
+      "qs": 123,
+      "the": null,
+      "us": 697
+    },
+    {
+      "en": "RMIT University",
+      "zh": "皇家墨尔本理工大学",
+      "qs": 125,
+      "the": 251,
+      "us": 173
+    },
+    {
+      "en": "Sungkyunkwan University",
+      "zh": "成均馆大学",
+      "qs": 126,
+      "the": 87,
+      "us": 244
+    },
+    {
+      "en": "Universiti Kebangsaan Malaysia (UKM)",
+      "zh": "马来西亚国立大学",
+      "qs": 126,
+      "the": 301,
+      "us": 546
+    },
+    {
+      "en": "Sapienza University of Rome",
+      "zh": "罗马大学",
+      "qs": 128,
+      "the": 170,
+      "us": 155
+    },
+    {
+      "en": "Indian Institute of Technology Bombay (IITB)",
+      "zh": "印度理工学院孟买分校",
+      "qs": 129,
+      "the": null,
+      "us": 657
+    },
+    {
+      "en": "Humboldt-Universität zu Berlin",
+      "zh": "柏林洪堡大学",
+      "qs": 130,
+      "the": 89,
+      "us": 51
+    },
+    {
+      "en": "Aarhus University",
+      "zh": "奥胡斯大学",
+      "qs": 131,
+      "the": 101,
+      "us": 117
+    },
+    {
+      "en": "University of Bath",
+      "zh": "巴斯大学",
+      "qs": 132,
+      "the": 251,
+      "us": 386
+    },
+    {
+      "en": "University of Science and Technology of China",
+      "zh": "中国科学技术大学",
+      "qs": 132,
+      "the": 51,
+      "us": 59
+    },
+    {
+      "en": "Universiti Putra Malaysia (UPM)",
+      "zh": "马来西亚博特拉大学",
+      "qs": 134,
+      "the": 501,
+      "us": 543
+    },
+    {
+      "en": "Universiti Sains Malaysia (USM)",
+      "zh": "马来西亚理科大学",
+      "qs": 134,
+      "the": 401,
+      "us": 378
+    },
+    {
+      "en": "Universidad Nacional Autónoma de México (UNAM)",
+      "zh": "墨西哥国立自治大学",
+      "qs": 136,
+      "the": 801,
+      "us": 355
+    },
+    {
+      "en": "Newcastle University",
+      "zh": "纽卡斯尔大学",
+      "qs": 137,
+      "the": 144,
+      "us": 202
+    },
+    {
+      "en": "Alma Mater Studiorum - University of Bologna",
+      "zh": "博洛尼亚大学",
+      "qs": 138,
+      "the": 130,
+      "us": 150
+    },
+    {
+      "en": "Macquarie University",
+      "zh": "麦考瑞大学",
+      "qs": 138,
+      "the": 166,
+      "us": 173
+    },
+    {
+      "en": "Eindhoven University of Technology",
+      "zh": "埃因霍芬理工大学",
+      "qs": 140,
+      "the": 192,
+      "us": 400
+    },
+    {
+      "en": "Erasmus University Rotterdam",
+      "zh": "鹿特丹伊拉斯姆斯大学",
+      "qs": 140,
+      "the": 107,
+      "us": 89
+    },
+    {
+      "en": "University of North Carolina, Chapel Hill",
+      "zh": "北卡罗来纳大学教堂山分校",
+      "qs": 140,
+      "the": 78,
+      "us": 55
+    },
+    {
+      "en": "King Saud University",
+      "zh": "沙特国王大学",
+      "qs": 143,
+      "the": 251,
+      "us": 139
+    },
+    {
+      "en": "Texas A&M University",
+      "zh": "得克萨斯农工大学",
+      "qs": 144,
+      "the": 151,
+      "us": 177
+    },
+    {
+      "en": "Technische Universität Berlin",
+      "zh": "柏林工业大学",
+      "qs": 145,
+      "the": 160,
+      "us": 252
+    },
+    {
+      "en": "University of Southern California",
+      "zh": "南加州大学",
+      "qs": 146,
+      "the": 73,
+      "us": 74
+    },
+    {
+      "en": "Stockholm University",
+      "zh": "斯德哥尔摩大学",
+      "qs": 147,
+      "the": 201,
+      "us": 193
+    },
+    {
+      "en": "University of Groningen",
+      "zh": "格罗宁根大学",
+      "qs": 147,
+      "the": 82,
+      "us": 77
+    },
+    {
+      "en": "University of Liverpool",
+      "zh": "利物浦大学",
+      "qs": 147,
+      "the": 143,
+      "us": 169
+    },
+    {
+      "en": "University of Cape Town",
+      "zh": "开普敦大学",
+      "qs": 150,
+      "the": 164,
+      "us": 122
+    },
+    {
+      "en": "Western University",
+      "zh": "韦仕敦大学",
+      "qs": 151,
+      "the": 201,
+      "us": 309
+    },
+    {
+      "en": "University of Vienna",
+      "zh": "维也纳大学",
+      "qs": 152,
+      "the": 95,
+      "us": 193
+    },
+    {
+      "en": "Universiti Teknologi Malaysia (UTM)",
+      "zh": "马来西亚工艺大学",
+      "qs": 153,
+      "the": 401,
+      "us": 429
+    },
+    {
+      "en": "Wageningen University & Research",
+      "zh": "瓦赫宁根大学",
+      "qs": 153,
+      "the": 66,
+      "us": 119
+    },
+    {
+      "en": "University of Exeter",
+      "zh": "埃克塞特大学",
+      "qs": 155,
+      "the": 170,
+      "us": 138
+    },
+    {
+      "en": "University of Geneva",
+      "zh": "日内瓦大学",
+      "qs": 155,
+      "the": 166,
+      "us": 129
+    },
+    {
+      "en": "Lancaster University",
+      "zh": "兰卡斯特大学",
+      "qs": 157,
+      "the": 184,
+      "us": 324
+    },
+    {
+      "en": "University of Basel",
+      "zh": "巴塞尔大学",
+      "qs": 158,
+      "the": 120,
+      "us": 189
+    },
+    {
+      "en": "Hanyang University",
+      "zh": "汉阳大学",
+      "qs": 159,
+      "the": 251,
+      "us": 415
+    },
+    {
+      "en": "University of Barcelona",
+      "zh": "巴塞罗那大学",
+      "qs": 160,
+      "the": 145,
+      "us": 88
+    },
+    {
+      "en": "Michigan State University",
+      "zh": "密歇根州立大学",
+      "qs": 161,
+      "the": 105,
+      "us": 127
+    },
+    {
+      "en": "Ghent University",
+      "zh": "根特大学",
+      "qs": 162,
+      "the": 115,
+      "us": 104
+    },
+    {
+      "en": "King Abdul Aziz University (KAU)",
+      "zh": "阿卜杜勒阿齐兹国王大学",
+      "qs": 163,
+      "the": 351,
+      "us": 122
+    },
+    {
+      "en": "Nagoya University",
+      "zh": "名古屋大学",
+      "qs": 164,
+      "the": 201,
+      "us": 328
+    },
+    {
+      "en": "Chalmers University of Technology",
+      "zh": "查尔姆斯理工大学",
+      "qs": 165,
+      "the": 201,
+      "us": 348
+    },
+    {
+      "en": "Al-Farabi Kazakh National University",
+      "zh": "哈萨克国立大学",
+      "qs": 166,
+      "the": 1201,
+      "us": 1075
+    },
+    {
+      "en": "Washington University in St. Louis",
+      "zh": "圣路易斯华盛顿大学",
+      "qs": 167,
+      "the": 67,
+      "us": 32
+    },
+    {
+      "en": "University of Montreal",
+      "zh": "蒙特利尔大学",
+      "qs": 168,
+      "the": 150,
+      "us": 193
+    },
+    {
+      "en": "University of York",
+      "zh": "约克大学",
+      "qs": 169,
+      "the": 154,
+      "us": 328
+    },
+    {
+      "en": "Hokkaido University",
+      "zh": "北海道大学",
+      "qs": 170,
+      "the": 351,
+      "us": 405
+    },
+    {
+      "en": "Kyushu University",
+      "zh": "九州大学",
+      "qs": 170,
+      "the": 301,
+      "us": 331
+    },
+    {
+      "en": "Universitat Autónoma de Barcelona",
+      "zh": "巴塞罗那自治大学",
+      "qs": 172,
+      "the": 183,
+      "us": 131
+    },
+    {
+      "en": "Arizona State University",
+      "zh": "亚利桑那州立大学",
+      "qs": 173,
+      "the": 201,
+      "us": 179
+    },
+    {
+      "en": "McMaster University",
+      "zh": "麦克马斯特大学",
+      "qs": 173,
+      "the": 116,
+      "us": 150
+    },
+    {
+      "en": "Universidad de Chile",
+      "zh": "智利大学",
+      "qs": 173,
+      "the": 401,
+      "us": 1163
+    },
+    {
+      "en": "National Tsing Hua University",
+      "zh": "国立清华大学",
+      "qs": 176,
+      "the": 401,
+      "us": 520
+    },
+    {
+      "en": "Khalifa University of Science and Technology",
+      "zh": "哈利法大学",
+      "qs": 177,
+      "the": 201,
+      "us": 340
+    },
+    {
+      "en": "Tongji University",
+      "zh": "同济大学",
+      "qs": 177,
+      "the": 141,
+      "us": 110
+    },
+    {
+      "en": "University of California, Santa Barbara (UCSB)",
+      "zh": "加州大学圣巴巴拉分校",
+      "qs": 179,
+      "the": 72,
+      "us": 100
+    },
+    {
+      "en": "Indian Institute of Technology Madras (IITM)",
+      "zh": "印度理工学院马德拉斯分校",
+      "qs": 180,
+      "the": null,
+      "us": 626
+    },
+    {
+      "en": "Cardiff University",
+      "zh": "卡迪夫大学",
+      "qs": 181,
+      "the": 201,
+      "us": 211
+    },
+    {
+      "en": "Emory University",
+      "zh": "埃默里大学",
+      "qs": 182,
+      "the": 102,
+      "us": 64
+    },
+    {
+      "en": "Curtin University",
+      "zh": "科廷大学",
+      "qs": 183,
+      "the": 251,
+      "us": 155
+    },
+    {
+      "en": "University of Bern",
+      "zh": "伯尔尼大学",
+      "qs": 184,
+      "the": 108,
+      "us": 113
+    },
+    {
+      "en": "University of Wollongong",
+      "zh": "伍伦贡大学",
+      "qs": 184,
+      "the": 201,
+      "us": 204
+    },
+    {
+      "en": "Wuhan University",
+      "zh": "武汉大学",
+      "qs": 186,
+      "the": 122,
+      "us": 85
+    },
+    {
+      "en": "Tecnológico de Monterrey (ITESM)",
+      "zh": "蒙特雷科技大学",
+      "qs": 187,
+      "the": 601,
+      "us": 603
+    },
+    {
+      "en": "University Complutense Madrid",
+      "zh": "马德里康普顿斯大学",
+      "qs": 187,
+      "the": 501,
+      "us": 296
+    },
+    {
+      "en": "UNIVERSITAS INDONESIA",
+      "zh": "印度尼西亚大学",
+      "qs": 189,
+      "the": 801,
+      "us": 727
+    },
+    {
+      "en": "Ohio State University",
+      "zh": "俄亥俄州立大学",
+      "qs": 190,
+      "the": 108,
+      "us": 64
+    },
+    {
+      "en": "Queen's University, Ontario",
+      "zh": "女王大学",
+      "qs": 191,
+      "the": 301,
+      "us": 415
+    },
+    {
+      "en": "Université Catholique de Louvain (UCL)",
+      "zh": "法语鲁汶天主教大学",
+      "qs": 191,
+      "the": 184,
+      "us": 216
+    },
+    {
+      "en": "Universität Hamburg",
+      "zh": "汉堡大学",
+      "qs": 193,
+      "the": 125,
+      "us": 146
+    },
+    {
+      "en": "University of Reading",
+      "zh": "雷丁大学",
+      "qs": 194,
+      "the": 201,
+      "us": 408
+    },
+    {
+      "en": "Vrije Universiteit Amsterdam",
+      "zh": "阿姆斯特丹自由大学",
+      "qs": 194,
+      "the": 176,
+      "us": 91
+    },
+    {
+      "en": "Waseda University",
+      "zh": "早稻田大学",
+      "qs": 196,
+      "the": 801,
+      "us": 540
+    },
+    {
+      "en": "University of Otago",
+      "zh": "奥塔哥大学",
+      "qs": 197,
+      "the": 351,
+      "us": 290
+    },
+    {
+      "en": "Vienna University of Technology",
+      "zh": "维也纳技术大学",
+      "qs": 197,
+      "the": 95,
+      "us": 550
+    },
+    {
+      "en": "National Yang Ming Chiao Tung University",
+      "zh": "国立阳明交通大学",
+      "qs": 199,
+      "the": 401,
+      "us": 596
+    },
+    {
+      "en": "Queen's University Belfast",
+      "zh": "贝尔法斯特女王大学",
+      "qs": 199,
+      "the": 198,
+      "us": 241
+    },
+    {
+      "en": "Universität Freiburg",
+      "zh": "弗莱堡大学",
+      "qs": 201,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Gothenburg",
+      "zh": "哥德堡大学",
+      "qs": 202,
+      "the": 201,
+      "us": 177
+    },
+    {
+      "en": "National Cheng Kung University (NCKU)",
+      "zh": "成功大学",
+      "qs": 203,
+      "the": 501,
+      "us": 612
+    },
+    {
+      "en": "University of Twente",
+      "zh": "特温特大学",
+      "qs": 203,
+      "the": 190,
+      "us": 417
+    },
+    {
+      "en": "Ecole Normale Supérieure de Lyon",
+      "zh": "里昂高等师范学院",
+      "qs": 205,
+      "the": 301,
+      "us": null
+    },
+    {
+      "en": "Universidad Autónoma de Madrid",
+      "zh": "马德里自治大学",
+      "qs": 206,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Deakin University",
+      "zh": "迪肯大学",
+      "qs": 207,
+      "the": 201,
+      "us": 142
+    },
+    {
+      "en": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+      "zh": "波恩大学",
+      "qs": 207,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Maryland, College Park",
+      "zh": "马里兰大学帕克分校",
+      "qs": 207,
+      "the": 116,
+      "us": 82
+    },
+    {
+      "en": "University of Minnesota (System)",
+      "zh": "明尼苏达大学系统",
+      "qs": 210,
+      "the": 88,
+      "us": null
+    },
+    {
+      "en": "University of Calgary",
+      "zh": "卡尔加里大学",
+      "qs": 211,
+      "the": 200,
+      "us": 208
+    },
+    {
+      "en": "Universidad de Los Andes Colombia",
+      "zh": "哥伦比亚安第斯大学",
+      "qs": 212,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Florida",
+      "zh": "佛罗里达大学",
+      "qs": 212,
+      "the": 134,
+      "us": 105
+    },
+    {
+      "en": "University of Lausanne",
+      "zh": "洛桑大学",
+      "qs": 212,
+      "the": 125,
+      "us": 179
+    },
+    {
+      "en": "Eberhard Karls Universität Tübingen",
+      "zh": "图宾根大学",
+      "qs": 215,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Indian Institute of Technology Kharagpur (IITKGP)",
+      "zh": "印度理工学院克勒格布尔分校",
+      "qs": 215,
+      "the": null,
+      "us": 791
+    },
+    {
+      "en": "Keio University",
+      "zh": "庆应义塾大学",
+      "qs": 215,
+      "the": 601,
+      "us": 507
+    },
+    {
+      "en": "Technische Universität Dresden",
+      "zh": "德累斯顿工业大学",
+      "qs": 218,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Indian Institute of Science (IISc) Bangalore",
+      "zh": "印度科学理工学院班加罗尔分校",
+      "qs": 219,
+      "the": 201,
+      "us": 592
+    },
+    {
+      "en": "University of Ottawa",
+      "zh": "渥太华大学",
+      "qs": 219,
+      "the": 187,
+      "us": 264
+    },
+    {
+      "en": "Chulalongkorn University",
+      "zh": "朱拉隆功大学",
+      "qs": 221,
+      "the": 501,
+      "us": 491
+    },
+    {
+      "en": "Indian Institute of Technology Kanpur (IITK)",
+      "zh": "印度理工学院坎普尔分校",
+      "qs": 222,
+      "the": null,
+      "us": 840
+    },
+    {
+      "en": "Tel Aviv University",
+      "zh": "特拉维夫大学",
+      "qs": 223,
+      "the": 201,
+      "us": 193
+    },
+    {
+      "en": "Universitas Gadjah Mada",
+      "zh": "加查马达大学",
+      "qs": 224,
+      "the": 1201,
+      "us": 1197
+    },
+    {
+      "en": "Loughborough University",
+      "zh": "拉夫堡大学",
+      "qs": 225,
+      "the": 301,
+      "us": 494
+    },
+    {
+      "en": "Queensland University of Technology",
+      "zh": "昆士兰科技大学",
+      "qs": 226,
+      "the": 201,
+      "us": 172
+    },
+    {
+      "en": "The University of Newcastle",
+      "zh": "纽卡斯尔大学（澳大利亚）",
+      "qs": 227,
+      "the": 251,
+      "us": 242
+    },
+    {
+      "en": "Université Libre de Bruxelles (ULB)",
+      "zh": "布鲁塞尔自由大学",
+      "qs": 227,
+      "the": 201,
+      "us": 275
+    },
+    {
+      "en": "United Arab Emirates University",
+      "zh": "阿联酋大学",
+      "qs": 229,
+      "the": 201,
+      "us": 285
+    },
+    {
+      "en": "Massey University",
+      "zh": "梅西大学",
+      "qs": 230,
+      "the": 501,
+      "us": 620
+    },
+    {
+      "en": "University of Lisbon",
+      "zh": "里斯本大学",
+      "qs": 230,
+      "the": 401,
+      "us": 245
+    },
+    {
+      "en": "Universität Erlangen-Nürnberg",
+      "zh": "埃尔朗根-纽伦堡大学",
+      "qs": 232,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "La Trobe University",
+      "zh": "拉筹伯大学",
+      "qs": 233,
+      "the": 251,
+      "us": 285
+    },
+    {
+      "en": "Universidade Estadual de Campinas (Unicamp)",
+      "zh": "坎皮纳斯州立大学",
+      "qs": 233,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Padova",
+      "zh": "帕多瓦大学",
+      "qs": 233,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Rochester",
+      "zh": "罗切斯特大学",
+      "qs": 236,
+      "the": 127,
+      "us": 208
+    },
+    {
+      "en": "American University of Beirut (AUB)",
+      "zh": "贝鲁特美国大学",
+      "qs": 237,
+      "the": null,
+      "us": 550
+    },
+    {
+      "en": "University of Porto",
+      "zh": "波尔图大学",
+      "qs": 237,
+      "the": 401,
+      "us": 290
+    },
+    {
+      "en": "Maastricht University",
+      "zh": "马斯特里赫特大学",
+      "qs": 239,
+      "the": 131,
+      "us": 183
+    },
+    {
+      "en": "Hebrew University of Jerusalem",
+      "zh": "耶路撒冷希伯来大学",
+      "qs": 240,
+      "the": 251,
+      "us": 288
+    },
+    {
+      "en": "Victoria University of Wellington",
+      "zh": "惠灵顿维多利亚大学",
+      "qs": 240,
+      "the": 401,
+      "us": 476
+    },
+    {
+      "en": "Politecnico di Torino",
+      "zh": "都灵理工大学",
+      "qs": 242,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Georg-August-Universität Göttingen",
+      "zh": "哥廷根大学",
+      "qs": 243,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Hamad Bin Khalifa University",
+      "zh": "哈马德·本·哈利法大学",
+      "qs": 244,
+      "the": null,
+      "us": 487
+    },
+    {
+      "en": "Hong Kong Baptist University",
+      "zh": "香港浸会大学",
+      "qs": 244,
+      "the": 201,
+      "us": 371
+    },
+    {
+      "en": "University College Cork",
+      "zh": "科克大学学院",
+      "qs": 246,
+      "the": 351,
+      "us": 364
+    },
+    {
+      "en": "Beijing Normal University",
+      "zh": "北京师范大学",
+      "qs": 247,
+      "the": 134,
+      "us": 135
+    },
+    {
+      "en": "Dartmouth College",
+      "zh": "达特茅斯学院",
+      "qs": 247,
+      "the": 180,
+      "us": 331
+    },
+    {
+      "en": "University of Massachusetts, Amherst",
+      "zh": "马萨诸塞大学阿默斯特分校",
+      "qs": 247,
+      "the": 112,
+      "us": 160
+    },
+    {
+      "en": "Vanderbilt University",
+      "zh": "范德堡大学",
+      "qs": 250,
+      "the": 92,
+      "us": 68
+    },
+    {
+      "en": "Universiti Teknologi Petronas (UTP)",
+      "zh": "马来西亚石油大学",
+      "qs": 251,
+      "the": 201,
+      "us": 875
+    },
+    {
+      "en": "University of Strathclyde",
+      "zh": "斯特拉斯克莱德大学",
+      "qs": 251,
+      "the": 351,
+      "us": 482
+    },
+    {
+      "en": "Taylor's University (Malaysia)",
+      "zh": "泰莱大学",
+      "qs": 253,
+      "the": null,
+      "us": 783
+    },
+    {
+      "en": "Technische Universität Darmstadt",
+      "zh": "达姆施塔特工业大学",
+      "qs": 253,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Bandung Institute of Technology (ITB)",
+      "zh": "万隆理工学院",
+      "qs": 255,
+      "the": null,
+      "us": 1589
+    },
+    {
+      "en": "Harbin Institute of Technology",
+      "zh": "哈尔滨工业大学",
+      "qs": 256,
+      "the": 131,
+      "us": 111
+    },
+    {
+      "en": "Tianjin University",
+      "zh": "天津大学",
+      "qs": 257,
+      "the": 201,
+      "us": 166
+    },
+    {
+      "en": "Université Paris 1 Panthéon-Sorbonne",
+      "zh": "巴黎第一大学",
+      "qs": 257,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Beijing Institute of Technology",
+      "zh": "北京理工大学",
+      "qs": 259,
+      "the": 201,
+      "us": 152
+    },
+    {
+      "en": "Universidad Nacional de Colombia",
+      "zh": "哥伦比亚国立大学",
+      "qs": 259,
+      "the": null,
+      "us": 605
+    },
+    {
+      "en": "University of Canterbury",
+      "zh": "坎特伯雷大学",
+      "qs": 261,
+      "the": 601,
+      "us": 543
+    },
+    {
+      "en": "University of Aberdeen",
+      "zh": "阿伯丁大学",
+      "qs": 262,
+      "the": 201,
+      "us": 376
+    },
+    {
+      "en": "University of Navarra",
+      "zh": "纳瓦拉大学",
+      "qs": 262,
+      "the": 251,
+      "us": 394
+    },
+    {
+      "en": "University of Surrey",
+      "zh": "萨里大学",
+      "qs": 262,
+      "the": 201,
+      "us": 339
+    },
+    {
+      "en": "Charles University",
+      "zh": "查理大学",
+      "qs": 265,
+      "the": 401,
+      "us": null
+    },
+    {
+      "en": "Universitat Pompeu Fabra",
+      "zh": "庞培法布拉大学",
+      "qs": 265,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Norwegian University of Science And Technology",
+      "zh": "挪威科技大学",
+      "qs": 267,
+      "the": 301,
+      "us": 238
+    },
+    {
+      "en": "Griffith University",
+      "zh": "格里菲斯大学",
+      "qs": 268,
+      "the": 251,
+      "us": 226
+    },
+    {
+      "en": "Middle East Technical University",
+      "zh": "中东技术大学",
+      "qs": 269,
+      "the": 351,
+      "us": 568
+    },
+    {
+      "en": "UCSI University",
+      "zh": "思特雅大学",
+      "qs": 269,
+      "the": null,
+      "us": 817
+    },
+    {
+      "en": "University of Warsaw",
+      "zh": "华沙大学",
+      "qs": 271,
+      "the": 601,
+      "us": 435
+    },
+    {
+      "en": "American University of Sharjah (AUS)",
+      "zh": "沙迦美国大学",
+      "qs": 272,
+      "the": 501,
+      "us": 894
+    },
+    {
+      "en": "North Carolina State University",
+      "zh": "北卡罗来纳州立大学",
+      "qs": 272,
+      "the": 301,
+      "us": 268
+    },
+    {
+      "en": "Universität zu Köln",
+      "zh": "科隆大学",
+      "qs": 272,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Virginia",
+      "zh": "University of Virginia",
+      "qs": 275,
+      "the": 166,
+      "us": 135
+    },
+    {
+      "en": "Sun Yat-sen University",
+      "zh": "276",
+      "qs": 276,
+      "the": 201,
+      "us": 74
+    },
+    {
+      "en": "University of Milan",
+      "zh": "University of Milan",
+      "qs": 276,
+      "the": 301,
+      "us": 160
+    },
+    {
+      "en": "University of Sussex",
+      "zh": "萨塞克斯大学",
+      "qs": 278,
+      "the": 201,
+      "us": 296
+    },
+    {
+      "en": "Radboud University Nijmegen",
+      "zh": "奈梅亨拉德堡德大学",
+      "qs": 279,
+      "the": 154,
+      "us": 142
+    },
+    {
+      "en": "University of Antwerp",
+      "zh": "University of Antwerp",
+      "qs": 280,
+      "the": 170,
+      "us": 206
+    },
+    {
+      "en": "University of Pittsburgh",
+      "zh": "University of Pittsburgh",
+      "qs": 281,
+      "the": 156,
+      "us": 57
+    },
+    {
+      "en": "University of Waikato",
+      "zh": "怀卡托大学",
+      "qs": 281,
+      "the": 401,
+      "us": 758
+    },
+    {
+      "en": "Dalhousie University",
+      "zh": "达尔豪斯大学",
+      "qs": 283,
+      "the": 351,
+      "us": 410
+    },
+    {
+      "en": "University of Galway / Ollscoil na Gaillimhe",
+      "zh": "戈尔韦大学",
+      "qs": 284,
+      "the": 351,
+      "us": null
+    },
+    {
+      "en": "Georgetown University",
+      "zh": "乔治城大学",
+      "qs": 285,
+      "the": 201,
+      "us": 290
+    },
+    {
+      "en": "University of Macau",
+      "zh": "澳门大学",
+      "qs": 285,
+      "the": 145,
+      "us": 206
+    },
+    {
+      "en": "Heriot-Watt University",
+      "zh": "赫瑞瓦特大学",
+      "qs": 287,
+      "the": 401,
+      "us": 1090
+    },
+    {
+      "en": "Universitas Airlangga",
+      "zh": "艾尔朗加大学",
+      "qs": 287,
+      "the": 1201,
+      "us": null
+    },
+    {
+      "en": "University of Arizona",
+      "zh": "亚利桑那大学",
+      "qs": 287,
+      "the": 138,
+      "us": 102
+    },
+    {
+      "en": "University of Bergen",
+      "zh": "卑尔根大学",
+      "qs": 287,
+      "the": 251,
+      "us": 275
+    },
+    {
+      "en": "University of The Witwatersrand",
+      "zh": "金山大学",
+      "qs": 291,
+      "the": 301,
+      "us": 240
+    },
+    {
+      "en": "Swansea University",
+      "zh": "斯旺西大学",
+      "qs": 292,
+      "the": 301,
+      "us": 394
+    },
+    {
+      "en": "University of California, Irvine",
+      "zh": "加州大学欧文分校",
+      "qs": 293,
+      "the": 97,
+      "us": 99
+    },
+    {
+      "en": "Case Western Reserve University",
+      "zh": "凯斯西储大学",
+      "qs": 294,
+      "the": 145,
+      "us": 189
+    },
+    {
+      "en": "Swinburne University of Technology",
+      "zh": "斯威本科技大学",
+      "qs": 294,
+      "the": 251,
+      "us": 164
+    },
+    {
+      "en": "University of Notre Dame",
+      "zh": "圣母大学",
+      "qs": 294,
+      "the": 194,
+      "us": 378
+    },
+    {
+      "en": "Vrije Universiteit Brussel (VUB)",
+      "zh": "布鲁塞尔自由大学",
+      "qs": 294,
+      "the": 201,
+      "us": null
+    },
+    {
+      "en": "Istanbul Technical University",
+      "zh": "伊斯坦布尔技术大学",
+      "qs": 298,
+      "the": 501,
+      "us": 639
+    },
+    {
+      "en": "University of Colorado Boulder",
+      "zh": "科罗拉多大学博尔德分校",
+      "qs": 299,
+      "the": 159,
+      "us": 105
+    },
+    {
+      "en": "Université Paris Cité",
+      "zh": "巴黎大学",
+      "qs": 300,
+      "the": 190,
+      "us": null
+    },
+    {
+      "en": "Universidad Carlos III de Madrid",
+      "zh": "马德里卡洛斯三世大学",
+      "qs": 301,
+      "the": null,
+      "us": 894
+    },
+    {
+      "en": "Stellenbosch University",
+      "zh": "斯泰伦博斯大学",
+      "qs": 302,
+      "the": 301,
+      "us": 299
+    },
+    {
+      "en": "Jagiellonian University",
+      "zh": "雅盖隆大学",
+      "qs": 303,
+      "the": 501,
+      "us": 394
+    },
+    {
+      "en": "University of Southern Denmark",
+      "zh": "南丹麦大学",
+      "qs": 303,
+      "the": 251,
+      "us": 278
+    },
+    {
+      "en": "Xi'an Jiaotong University",
+      "zh": "西安交通大学",
+      "qs": 305,
+      "the": 201,
+      "us": 129
+    },
+    {
+      "en": "Aalborg University",
+      "zh": "奥尔堡大学",
+      "qs": 306,
+      "the": 251,
+      "us": 288
+    },
+    {
+      "en": "Indiana University Bloomington",
+      "zh": "印第安纳大学伯明顿分校",
+      "qs": 306,
+      "the": null,
+      "us": 155
+    },
+    {
+      "en": "Simon Fraser University",
+      "zh": "西蒙菲莎大学",
+      "qs": 308,
+      "the": 301,
+      "us": 444
+    },
+    {
+      "en": "University of Johannesburg",
+      "zh": "约翰内斯堡大学",
+      "qs": 308,
+      "the": 351,
+      "us": 281
+    },
+    {
+      "en": "City St George’s, University of London",
+      "zh": "伦敦城市与圣乔治大学",
+      "qs": 310,
+      "the": 301,
+      "us": 318
+    },
+    {
+      "en": "Linköping University",
+      "zh": "林雪平大学",
+      "qs": 310,
+      "the": 201,
+      "us": 306
+    },
+    {
+      "en": "Ulsan National Institute of Science and Technology",
+      "zh": "蔚山科学技术大学",
+      "qs": 310,
+      "the": 201,
+      "us": 421
+    },
+    {
+      "en": "Universität Stuttgart",
+      "zh": "斯图加特大学",
+      "qs": 310,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Miami",
+      "zh": "迈阿密大学",
+      "qs": 314,
+      "the": 201,
+      "us": 233
+    },
+    {
+      "en": "University of Tasmania",
+      "zh": "塔斯马尼亚大学",
+      "qs": 314,
+      "the": 251,
+      "us": 270
+    },
+    {
+      "en": "Goethe Universität Frankfurt am Main",
+      "zh": "法兰克福歌德大学",
+      "qs": 316,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "L.N. Gumilyov Eurasian National University",
+      "zh": "欧亚国立大学",
+      "qs": 317,
+      "the": null,
+      "us": 1868
+    },
+    {
+      "en": "Universidade Federal do Rio de Janeiro",
+      "zh": "里约热内卢联邦大学",
+      "qs": 317,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Huazhong University of Science and Technology",
+      "zh": "华中科技大学",
+      "qs": 319,
+      "the": 176,
+      "us": 92
+    },
+    {
+      "en": "Bauman Moscow State Technical University",
+      "zh": "鲍曼莫斯科国立技术大学",
+      "qs": 320,
+      "the": 301,
+      "us": 1569
+    },
+    {
+      "en": "Université Grenoble Alpes",
+      "zh": "格勒诺布尔阿尔卑斯大学",
+      "qs": 321,
+      "the": 351,
+      "us": 320
+    },
+    {
+      "en": "University of Tehran",
+      "zh": "德黑兰大学",
+      "qs": 322,
+      "the": 401,
+      "us": 314
+    },
+    {
+      "en": "Koc University",
+      "zh": "324",
+      "qs": 323,
+      "the": 301,
+      "us": 457
+    },
+    {
+      "en": "Sichuan University",
+      "zh": "Sichuan University",
+      "qs": 324,
+      "the": 201,
+      "us": 139
+    },
+    {
+      "en": "University of Jordan",
+      "zh": "约旦大学",
+      "qs": 324,
+      "the": 601,
+      "us": 599
+    },
+    {
+      "en": "University of Leicester",
+      "zh": "University of Leicester",
+      "qs": 326,
+      "the": 192,
+      "us": 166
+    },
+    {
+      "en": "Universidade Nova de Lisboa",
+      "zh": "里斯本新大学",
+      "qs": 327,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Rutgers University – New Brunswick",
+      "zh": "罗格斯大学新布伦瑞克分校",
+      "qs": 328,
+      "the": 301,
+      "us": 155
+    },
+    {
+      "en": "University of Delhi",
+      "zh": "德里大学",
+      "qs": 328,
+      "the": 601,
+      "us": 801
+    },
+    {
+      "en": "University of Sharjah",
+      "zh": "沙迦大学",
+      "qs": 328,
+      "the": 301,
+      "us": 247
+    },
+    {
+      "en": "Kyung Hee University",
+      "zh": "庆熙大学",
+      "qs": 331,
+      "the": 251,
+      "us": 408
+    },
+    {
+      "en": "Satbayev University (previously Kazakh Technical University named after K.I. Satpaev)",
+      "zh": "萨特巴耶夫大学",
+      "qs": 331,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "York University",
+      "zh": "York University",
+      "qs": 333,
+      "the": 401,
+      "us": 530
+    },
+    {
+      "en": "Indian Institute of Technology Guwahati (IITG)",
+      "zh": "印度理工学院古瓦哈蒂分校",
+      "qs": 334,
+      "the": null,
+      "us": 1284
+    },
+    {
+      "en": "Sultan Qaboos University",
+      "zh": "苏丹卡布斯大学",
+      "qs": 334,
+      "the": 501,
+      "us": 565
+    },
+    {
+      "en": "Tufts University",
+      "zh": "塔夫茨大学",
+      "qs": 334,
+      "the": 189,
+      "us": 275
+    },
+    {
+      "en": "Universidad Politécnica de Madrid",
+      "zh": "马德里理工大学",
+      "qs": 334,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Illinois Chicago (UIC)",
+      "zh": "伊利诺伊大学芝加哥分校",
+      "qs": 334,
+      "the": 201,
+      "us": 252
+    },
+    {
+      "en": "Indian Institute of Technology Roorkee (IITR)",
+      "zh": "印度理工学院鲁尔基分校",
+      "qs": 339,
+      "the": null,
+      "us": 904
+    },
+    {
+      "en": "Shandong University",
+      "zh": "中国大陆",
+      "qs": 339,
+      "the": 251,
+      "us": 222
+    },
+    {
+      "en": "Xiamen University",
+      "zh": "中国大陆",
+      "qs": 341,
+      "the": 251,
+      "us": 176
+    },
+    {
+      "en": "University of Oulu",
+      "zh": "奥卢大学",
+      "qs": 342,
+      "the": 251,
+      "us": 348
+    },
+    {
+      "en": "Southern University of Science and Technology (SUSTech)",
+      "zh": "南方科技大学",
+      "qs": 343,
+      "the": 160,
+      "us": 119
+    },
+    {
+      "en": "University of Pisa",
+      "zh": "比萨大学",
+      "qs": 343,
+      "the": 351,
+      "us": 270
+    },
+    {
+      "en": "National Taiwan University of Science and Technology (Taiwan Tech)",
+      "zh": "台湾科技大学",
+      "qs": 345,
+      "the": 401,
+      "us": 882
+    },
+    {
+      "en": "Pontificia Universidad Católica del Perú (PUCP)",
+      "zh": "秘鲁天主教大学",
+      "qs": 345,
+      "the": null,
+      "us": 1127
+    },
+    {
+      "en": "Cairo University",
+      "zh": "开罗大学",
+      "qs": 347,
+      "the": 801,
+      "us": 221
+    },
+    {
+      "en": "Tilburg University",
+      "zh": "蒂尔堡大学",
+      "qs": 347,
+      "the": 301,
+      "us": 651
+    },
+    {
+      "en": "University of Coimbra",
+      "zh": "科英布拉大学",
+      "qs": 347,
+      "the": 401,
+      "us": 444
+    },
+    {
+      "en": "Technion - Israel Institute of Technology",
+      "zh": "以色列理工学院",
+      "qs": 350,
+      "the": 301,
+      "us": 394
+    },
+    {
+      "en": "Universität Innsbruck",
+      "zh": "因斯布鲁克大学",
+      "qs": 350,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Münster",
+      "zh": "明斯特大学",
+      "qs": 350,
+      "the": 195,
+      "us": 218
+    },
+    {
+      "en": "University of Tsukuba",
+      "zh": "筑波大学",
+      "qs": 350,
+      "the": 351,
+      "us": 471
+    },
+    {
+      "en": "Quaid-i-azam University",
+      "zh": "奎德阿扎姆大学",
+      "qs": 354,
+      "the": 401,
+      "us": 451
+    },
+    {
+      "en": "Nankai University",
+      "zh": "355",
+      "qs": 355,
+      "the": 251,
+      "us": 146
+    },
+    {
+      "en": "National Technical University of Athens",
+      "zh": "National Technical University of Athens",
+      "qs": 355,
+      "the": 801,
+      "us": 615
+    },
+    {
+      "en": "Università degli Studi di Roma - Tor Vergata",
+      "zh": "罗马第二大学",
+      "qs": 355,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "George Washington University",
+      "zh": "乔治华盛顿大学",
+      "qs": 358,
+      "the": 201,
+      "us": 259
+    },
+    {
+      "en": "Mahidol University",
+      "zh": "玛希隆大学",
+      "qs": 358,
+      "the": 601,
+      "us": 555
+    },
+    {
+      "en": "University of Victoria",
+      "zh": "维多利亚大学（加拿大）",
+      "qs": 358,
+      "the": 301,
+      "us": 417
+    },
+    {
+      "en": "Virginia Polytechnic Institute (Virginia Tech)",
+      "zh": "弗吉尼亚理工学院",
+      "qs": 358,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Chinese Academy of Sciences (UCAS)",
+      "zh": "中国科学院大学",
+      "qs": 362,
+      "the": null,
+      "us": 53
+    },
+    {
+      "en": "University of Pretoria",
+      "zh": "比勒陀利亚大学",
+      "qs": 362,
+      "the": 501,
+      "us": 417
+    },
+    {
+      "en": "University of Tartu",
+      "zh": "塔尔图大学",
+      "qs": 362,
+      "the": 301,
+      "us": 281
+    },
+    {
+      "en": "University of the Philippines",
+      "zh": "菲律宾大学",
+      "qs": 362,
+      "the": 1201,
+      "us": 447
+    },
+    {
+      "en": "University of Turku",
+      "zh": "图尔库大学",
+      "qs": 366,
+      "the": 301,
+      "us": 362
+    },
+    {
+      "en": "RUDN University",
+      "zh": "俄罗斯人民友谊大学",
+      "qs": 367,
+      "the": 801,
+      "us": null
+    },
+    {
+      "en": "Sciences Po Paris",
+      "zh": "巴黎政治学院",
+      "qs": 367,
+      "the": null,
+      "us": 1015
+    },
+    {
+      "en": "Universiti Brunei Darussalam (UBD)",
+      "zh": "文莱达鲁萨兰大学",
+      "qs": 367,
+      "the": 351,
+      "us": null
+    },
+    {
+      "en": "Daegu Gyeongbuk Institute of Science and Technology (DGIST)",
+      "zh": "大邱庆北科学技术院",
+      "qs": 370,
+      "the": 351,
+      "us": 1527
+    },
+    {
+      "en": "Bogazici University",
+      "zh": "博阿济奇大学",
+      "qs": 371,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "National University of Sciences And Technology (NUST) Islamabad",
+      "zh": "巴基斯坦国立科技大学伊斯兰堡分校",
+      "qs": 371,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "Pontificia Universidad Javeriana",
+      "zh": "哈维里亚纳宗座大学",
+      "qs": 371,
+      "the": null,
+      "us": 1096
+    },
+    {
+      "en": "Oxford Brookes University",
+      "zh": "牛津布鲁克斯大学",
+      "qs": 374,
+      "the": 801,
+      "us": 1174
+    },
+    {
+      "en": "Saint Petersburg State University",
+      "zh": "圣彼得堡国立大学",
+      "qs": 375,
+      "the": null,
+      "us": 831
+    },
+    {
+      "en": "Sharif University of Technology",
+      "zh": "谢里夫理工大学",
+      "qs": 375,
+      "the": 351,
+      "us": 578
+    },
+    {
+      "en": "South China University of Technology",
+      "zh": "华南理工大学",
+      "qs": 377,
+      "the": 251,
+      "us": 162
+    },
+    {
+      "en": "University of Saskatchewan",
+      "zh": "萨斯喀彻温大学",
+      "qs": 378,
+      "the": 351,
+      "us": 592
+    },
+    {
+      "en": "University of Liege",
+      "zh": "列日大学",
+      "qs": 379,
+      "the": 301,
+      "us": 421
+    },
+    {
+      "en": "University of Naples - Federico II",
+      "zh": "那不勒斯费德里克二世大学",
+      "qs": 379,
+      "the": 301,
+      "us": 216
+    },
+    {
+      "en": "The American University in Cairo",
+      "zh": "开罗美国大学",
+      "qs": 381,
+      "the": 601,
+      "us": 967
+    },
+    {
+      "en": "University of East Anglia (UEA)",
+      "zh": "东安格利亚大学",
+      "qs": 381,
+      "the": 251,
+      "us": 405
+    },
+    {
+      "en": "University of Luxembourg",
+      "zh": "卢森堡大学",
+      "qs": 381,
+      "the": 251,
+      "us": 538
+    },
+    {
+      "en": "Northeastern University",
+      "zh": "东北大学（美国）",
+      "qs": 384,
+      "the": null,
+      "us": 232
+    },
+    {
+      "en": "Brunel University of London",
+      "zh": "布鲁内尔大学",
+      "qs": 385,
+      "the": 401,
+      "us": null
+    },
+    {
+      "en": "Gwangju Institute of Science and Technology (GIST)",
+      "zh": "光州科学技术院",
+      "qs": 385,
+      "the": 401,
+      "us": 1136
+    },
+    {
+      "en": "Flinders University",
+      "zh": "弗林德斯大学",
+      "qs": 387,
+      "the": 301,
+      "us": 376
+    },
+    {
+      "en": "Beihang University (former BUAA)",
+      "zh": "北京航空航天大学",
+      "qs": 388,
+      "the": 251,
+      "us": 183
+    },
+    {
+      "en": "Birkbeck College, University of London",
+      "zh": "伦敦大学伯克贝克学院",
+      "qs": 388,
+      "the": 301,
+      "us": 9
+    },
+    {
+      "en": "National and Kapodistrian University of Athens",
+      "zh": "雅典大学",
+      "qs": 390,
+      "the": 401,
+      "us": 227
+    },
+    {
+      "en": "Abu Dhabi University",
+      "zh": "阿布扎比大学",
+      "qs": 391,
+      "the": 201,
+      "us": 673
+    },
+    {
+      "en": "Sejong University",
+      "zh": "世宗大学",
+      "qs": 392,
+      "the": 251,
+      "us": 306
+    },
+    {
+      "en": "Southeast University, China",
+      "zh": "东南大学",
+      "qs": 392,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Universitat Politècnica de Catalunya",
+      "zh": "加泰罗尼亚理工大学",
+      "qs": 392,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "Aston University",
+      "zh": "阿斯顿大学",
+      "qs": 395,
+      "the": 401,
+      "us": 663
+    },
+    {
+      "en": "Ruhr-Universität Bochum",
+      "zh": "波鸿鲁尔大学",
+      "qs": 395,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Lappeenranta-Lahti University of Technology LUT",
+      "zh": "拉彭兰塔理工大学",
+      "qs": 397,
+      "the": null,
+      "us": 770
+    },
+    {
+      "en": "University of Kent",
+      "zh": "肯特大学",
+      "qs": 397,
+      "the": 401,
+      "us": 770
+    },
+    {
+      "en": "IPB University (aka Bogor Agricultural University)",
+      "zh": "茂物农业大学",
+      "qs": 399,
+      "the": null,
+      "us": 1713
+    },
+    {
+      "en": "Western Sydney University",
+      "zh": "西悉尼大学",
+      "qs": 400,
+      "the": 301,
+      "us": 242
+    },
+    {
+      "en": "Umeå University",
+      "zh": "于默奥大学",
+      "qs": 401,
+      "the": 401,
+      "us": 441
+    },
+    {
+      "en": "University of Granada",
+      "zh": "格拉纳达大学",
+      "qs": 401,
+      "the": 601,
+      "us": 369
+    },
+    {
+      "en": "University of Limerick",
+      "zh": "利默里克大学",
+      "qs": 401,
+      "the": 501,
+      "us": 1030
+    },
+    {
+      "en": "Sabanci University",
+      "zh": "萨班哲大学",
+      "qs": 404,
+      "the": null,
+      "us": 739
+    },
+    {
+      "en": "University of Florence",
+      "zh": "佛罗伦萨大学",
+      "qs": 404,
+      "the": 351,
+      "us": 255
+    },
+    {
+      "en": "Institut National des Sciences Appliquées de Lyon (INSA)",
+      "zh": "里昂国立应用科学学院",
+      "qs": 406,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Lincoln University",
+      "zh": "林肯大学（新西兰）",
+      "qs": 407,
+      "the": 501,
+      "us": 1384
+    },
+    {
+      "en": "University of Turin",
+      "zh": "都灵大学",
+      "qs": 408,
+      "the": 401,
+      "us": 230
+    },
+    {
+      "en": "Università Cattolica del Sacro Cuore",
+      "zh": "圣心天主教大学",
+      "qs": 409,
+      "the": 251,
+      "us": null
+    },
+    {
+      "en": "Auckland University of Technology",
+      "zh": "奥克兰理工大学",
+      "qs": 410,
+      "the": 501,
+      "us": 524
+    },
+    {
+      "en": "Dublin City University",
+      "zh": "都柏林城市大学",
+      "qs": 410,
+      "the": 301,
+      "us": 828
+    },
+    {
+      "en": "Sunway University",
+      "zh": "双威大学",
+      "qs": 410,
+      "the": 301,
+      "us": 497
+    },
+    {
+      "en": "University at Buffalo SUNY",
+      "zh": "纽约州立大学布法罗分校",
+      "qs": 410,
+      "the": 301,
+      "us": 369
+    },
+    {
+      "en": "University of Southern Queensland",
+      "zh": "南昆士兰大学",
+      "qs": 410,
+      "the": 351,
+      "us": 345
+    },
+    {
+      "en": "Bilkent University",
+      "zh": "比尔肯特大学",
+      "qs": 415,
+      "the": 601,
+      "us": 831
+    },
+    {
+      "en": "Czech Technical University In Prague",
+      "zh": "布拉格捷克理工大学",
+      "qs": 416,
+      "the": 1201,
+      "us": 842
+    },
+    {
+      "en": "Julius-Maximilians-Universität Würzburg",
+      "zh": "维尔茨堡大学",
+      "qs": 416,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Universität Mannheim",
+      "zh": "曼海姆大学",
+      "qs": 416,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Aveiro",
+      "zh": "阿威罗大学",
+      "qs": 419,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "National Taipei University of Technology",
+      "zh": "台北科技大学",
+      "qs": 420,
+      "the": 1201,
+      "us": 1514
+    },
+    {
+      "en": "Université de Strasbourg",
+      "zh": "斯特拉斯堡大学",
+      "qs": 420,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Universitat Politecnica de Valencia",
+      "zh": "瓦伦西亚理工大学",
+      "qs": 422,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Murdoch University",
+      "zh": "默多克大学",
+      "qs": 423,
+      "the": 401,
+      "us": 460
+    },
+    {
+      "en": "Tampere University",
+      "zh": "坦佩雷大学",
+      "qs": 423,
+      "the": 301,
+      "us": 451
+    },
+    {
+      "en": "Università degli Studi di Pavia",
+      "zh": "帕维亚大学",
+      "qs": 423,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Washington State University",
+      "zh": "华盛顿州立大学",
+      "qs": 423,
+      "the": 401,
+      "us": 425
+    },
+    {
+      "en": "Graz University of Technology",
+      "zh": "格拉茨工业大学",
+      "qs": 427,
+      "the": 601,
+      "us": 1122
+    },
+    {
+      "en": "Aix-Marseille University",
+      "zh": "艾克斯-马赛大学",
+      "qs": 428,
+      "the": null,
+      "us": 247
+    },
+    {
+      "en": "University of Dundee",
+      "zh": "邓迪大学",
+      "qs": 428,
+      "the": 301,
+      "us": 437
+    },
+    {
+      "en": "Masaryk University",
+      "zh": "马萨里克大学",
+      "qs": 430,
+      "the": 601,
+      "us": 531
+    },
+    {
+      "en": "Universitat de Valencia",
+      "zh": "瓦伦西亚大学",
+      "qs": 430,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Université de Montpellier",
+      "zh": "蒙彼利埃大学",
+      "qs": 430,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "East China Normal University",
+      "zh": "华东师范大学",
+      "qs": 433,
+      "the": 251,
+      "us": 227
+    },
+    {
+      "en": "Leibniz Universität Hannover",
+      "zh": "汉诺威莱布尼茨大学",
+      "qs": 433,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "National Taiwan Normal University",
+      "zh": "台湾师范大学",
+      "qs": 435,
+      "the": 501,
+      "us": 842
+    },
+    {
+      "en": "Prince Mohammad Bin Fahd University",
+      "zh": "穆罕默德·本·法赫德亲王大学",
+      "qs": 436,
+      "the": 301,
+      "us": 996
+    },
+    {
+      "en": "Universitat Ramon Llull",
+      "zh": "拉蒙柳利大学",
+      "qs": 436,
+      "the": 801,
+      "us": 1061
+    },
+    {
+      "en": "IE University",
+      "zh": "IE University",
+      "qs": 438,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "National Sun Yat-sen University",
+      "zh": "中山大学（台湾）",
+      "qs": 439,
+      "the": 601,
+      "us": 1125
+    },
+    {
+      "en": "Ajman University",
+      "zh": "阿治曼大学",
+      "qs": 440,
+      "the": 401,
+      "us": 783
+    },
+    {
+      "en": "James Cook University",
+      "zh": "詹姆斯库克大学",
+      "qs": 440,
+      "the": 351,
+      "us": 382
+    },
+    {
+      "en": "Macau University of Science and Technology",
+      "zh": "澳门科技大学",
+      "qs": 440,
+      "the": 251,
+      "us": 568
+    },
+    {
+      "en": "National Research University Higher School of Economics (HSE, Moscow)",
+      "zh": "俄罗斯国立高等经济学院（莫斯科）",
+      "qs": 440,
+      "the": null,
+      "us": 573
+    },
+    {
+      "en": "Universität Konstanz",
+      "zh": "康斯坦茨大学",
+      "qs": 440,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of California, Riverside",
+      "zh": "加州大学河滨分校",
+      "qs": 440,
+      "the": 301,
+      "us": 262
+    },
+    {
+      "en": "Vilnius University",
+      "zh": "维尔纽斯大学",
+      "qs": 446,
+      "the": 801,
+      "us": 928
+    },
+    {
+      "en": "Belarusian State University",
+      "zh": "白俄罗斯国立大学",
+      "qs": 447,
+      "the": null,
+      "us": 1531
+    },
+    {
+      "en": "Universität Bayreuth",
+      "zh": "拜罗伊特大学",
+      "qs": 448,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Iowa State University",
+      "zh": "爱荷华州立大学",
+      "qs": 449,
+      "the": 401,
+      "us": 400
+    },
+    {
+      "en": "Kazan Federal University",
+      "zh": "喀山联邦大学",
+      "qs": 450,
+      "the": 801,
+      "us": 1192
+    },
+    {
+      "en": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\" (UNESP)",
+      "zh": "圣保罗州立大学",
+      "qs": 450,
+      "the": 601,
+      "us": 578
+    },
+    {
+      "en": "Johannes Gutenberg Universität Mainz",
+      "zh": "美因茨大学",
+      "qs": 452,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Shenzhen University",
+      "zh": "深圳大学",
+      "qs": 452,
+      "the": 351,
+      "us": 166
+    },
+    {
+      "en": "Stony Brook University",
+      "zh": "石溪大学",
+      "qs": 452,
+      "the": 301,
+      "us": 236
+    },
+    {
+      "en": "University of Cyprus",
+      "zh": "University of Cyprus",
+      "qs": 452,
+      "the": 401,
+      "us": 925
+    },
+    {
+      "en": "Amirkabir University of Technology",
+      "zh": "阿米尔卡比尔理工大学",
+      "qs": 456,
+      "the": 351,
+      "us": 791
+    },
+    {
+      "en": "University of Essex",
+      "zh": "University of Essex",
+      "qs": 456,
+      "the": 301,
+      "us": 707
+    },
+    {
+      "en": "Colorado State University",
+      "zh": "科罗拉多州立大学",
+      "qs": 458,
+      "the": 501,
+      "us": 347
+    },
+    {
+      "en": "Universidad Nacional de La Plata",
+      "zh": "拉普拉塔国立大学",
+      "qs": 458,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of California, Santa Cruz",
+      "zh": "加州大学圣克鲁斯分校",
+      "qs": 458,
+      "the": 181,
+      "us": 141
+    },
+    {
+      "en": "Jordan University of Science & Technology",
+      "zh": "约旦科技大学",
+      "qs": 461,
+      "the": 801,
+      "us": 713
+    },
+    {
+      "en": "Novosibirsk State University",
+      "zh": "新西伯利亚国立大学",
+      "qs": 461,
+      "the": 1001,
+      "us": 1002
+    },
+    {
+      "en": "Royal Holloway University of London",
+      "zh": "伦敦大学皇家霍洛威学院",
+      "qs": 461,
+      "the": 401,
+      "us": 817
+    },
+    {
+      "en": "Università Vita-Salute San Raffaele",
+      "zh": "圣拉斐尔生命健康大学",
+      "qs": 461,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Anna University",
+      "zh": "安娜大学",
+      "qs": 465,
+      "the": 801,
+      "us": 1679
+    },
+    {
+      "en": "Concordia University",
+      "zh": "康考迪亚大学",
+      "qs": 465,
+      "the": 601,
+      "us": 770
+    },
+    {
+      "en": "Shanghai University",
+      "zh": "上海大学",
+      "qs": 465,
+      "the": 501,
+      "us": 279
+    },
+    {
+      "en": "University of Kansas",
+      "zh": "堪萨斯大学",
+      "qs": 465,
+      "the": 351,
+      "us": 357
+    },
+    {
+      "en": "Ben Gurion University of The Negev",
+      "zh": "本古里安大学",
+      "qs": 469,
+      "the": 601,
+      "us": 540
+    },
+    {
+      "en": "Laval University",
+      "zh": "拉瓦尔大学",
+      "qs": 469,
+      "the": null,
+      "us": 507
+    },
+    {
+      "en": "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU)",
+      "zh": "塔什干灌溉与农业机械化工程师学院 - 国立研究大学",
+      "qs": 469,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Universidad de Sevilla",
+      "zh": "塞维利亚大学",
+      "qs": 469,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Jilin University",
+      "zh": "吉林大学",
+      "qs": 473,
+      "the": null,
+      "us": 255
+    },
+    {
+      "en": "Johannes Kepler University Linz",
+      "zh": "林茨大学",
+      "qs": 473,
+      "the": 401,
+      "us": 932
+    },
+    {
+      "en": "Pusan National University",
+      "zh": "釜山国立大学",
+      "qs": 473,
+      "the": 501,
+      "us": 697
+    },
+    {
+      "en": "Università della Svizzera Italiana",
+      "zh": "瑞士意大利语区大学",
+      "qs": 473,
+      "the": 251,
+      "us": 524
+    },
+    {
+      "en": "Moscow Institute of Physics and Technology State University",
+      "zh": "莫斯科物理技术学院国立大学",
+      "qs": 477,
+      "the": null,
+      "us": 573
+    },
+    {
+      "en": "Universität Potsdam",
+      "zh": "波茨坦大学",
+      "qs": 477,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Chung-Ang University",
+      "zh": "中央大学",
+      "qs": 479,
+      "the": 401,
+      "us": 1021
+    },
+    {
+      "en": "Hiroshima University",
+      "zh": "广岛大学",
+      "qs": 480,
+      "the": 601,
+      "us": 609
+    },
+    {
+      "en": "University of Science and Technology Beijing",
+      "zh": "北京科技大学",
+      "qs": 480,
+      "the": null,
+      "us": 355
+    },
+    {
+      "en": "Dalian University of Technology",
+      "zh": "大连理工大学",
+      "qs": 482,
+      "the": 401,
+      "us": 254
+    },
+    {
+      "en": "Duy Tan University",
+      "zh": "维新大学",
+      "qs": 482,
+      "the": 601,
+      "us": 394
+    },
+    {
+      "en": "Kobe University",
+      "zh": "神户大学",
+      "qs": 482,
+      "the": 601,
+      "us": 648
+    },
+    {
+      "en": "Aristotle University of Thessaloniki",
+      "zh": "塞萨洛尼基亚里士多德大学",
+      "qs": 485,
+      "the": 801,
+      "us": 391
+    },
+    {
+      "en": "University of Trento",
+      "zh": "特伦托大学",
+      "qs": 485,
+      "the": 351,
+      "us": 371
+    },
+    {
+      "en": "Edith Cowan University",
+      "zh": "伊迪斯科文大学",
+      "qs": 487,
+      "the": 351,
+      "us": 435
+    },
+    {
+      "en": "Technische Universität Bergakademie Freiberg",
+      "zh": "弗莱贝格工业大学",
+      "qs": 487,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Warsaw University of Technology",
+      "zh": "华沙理工大学",
+      "qs": 487,
+      "the": 1201,
+      "us": 1158
+    },
+    {
+      "en": "Universidad de Santiago de Chile - USACH",
+      "zh": "圣地亚哥大学（智利）",
+      "qs": 490,
+      "the": null,
+      "us": 1163
+    },
+    {
+      "en": "Central South University",
+      "zh": "中南大学",
+      "qs": 491,
+      "the": 251,
+      "us": 131
+    },
+    {
+      "en": "Imam Abdulrahman Bin Faisal University (formerly University of Dammam)",
+      "zh": "伊玛目阿卜杜勒拉赫曼·本·费萨尔大学",
+      "qs": 491,
+      "the": 501,
+      "us": 596
+    },
+    {
+      "en": "Universiti Utara Malaysia (UUM)",
+      "zh": "马来西亚北方大学",
+      "qs": 491,
+      "the": 401,
+      "us": null
+    },
+    {
+      "en": "Université de Bordeaux",
+      "zh": "波尔多大学",
+      "qs": 494,
+      "the": null,
+      "us": 281
+    },
+    {
+      "en": "University of Canberra",
+      "zh": "堪培拉大学",
+      "qs": 494,
+      "the": 401,
+      "us": 688
+    },
+    {
+      "en": "Iran University of Science and Technology",
+      "zh": "伊朗科技大学",
+      "qs": 496,
+      "the": 401,
+      "us": 981
+    },
+    {
+      "en": "Justus-Liebig-Universität Gießen",
+      "zh": "吉森大学",
+      "qs": 496,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Jyväskylä",
+      "zh": "于韦斯屈莱大学",
+      "qs": 498,
+      "the": 401,
+      "us": 565
+    },
+    {
+      "en": "Central Queensland University Australia (CQUniversity)",
+      "zh": "澳大利亚中央昆士兰大学",
+      "qs": 499,
+      "the": 401,
+      "us": 798
+    },
+    {
+      "en": "Northwestern Polytechnical University",
+      "zh": "西北工业大学",
+      "qs": 499,
+      "the": 251,
+      "us": 182
+    },
+    {
+      "en": "Tomsk State University",
+      "zh": "托木斯克国立大学",
+      "qs": 499,
+      "the": 601,
+      "us": 981
+    },
+    {
+      "en": "Universidad de Costa Rica",
+      "zh": "哥斯达黎加大学",
+      "qs": 499,
+      "the": null,
+      "us": 1002
+    },
+    {
+      "en": "Shoolini University of Biotechnology and Management Sciences",
+      "zh": "Shoolini University of Biotechnology and Management Sciences",
+      "qs": 503,
+      "the": 401,
+      "us": null
+    },
+    {
+      "en": "China Agricultural University",
+      "zh": "China Agricultural University",
+      "qs": 504,
+      "the": null,
+      "us": 192
+    },
+    {
+      "en": "Chongqing University",
+      "zh": "Chongqing University",
+      "qs": 504,
+      "the": 351,
+      "us": 202
+    },
+    {
+      "en": "Ewha Womans University",
+      "zh": "Ewha Womans University",
+      "qs": 504,
+      "the": 501,
+      "us": 912
+    },
+    {
+      "en": "Hunan University",
+      "zh": "Hunan University",
+      "qs": 504,
+      "the": 251,
+      "us": 115
+    },
+    {
+      "en": "University of Guelph",
+      "zh": "University of Guelph",
+      "qs": 504,
+      "the": 401,
+      "us": 559
+    },
+    {
+      "en": "Institut Teknologi Sepuluh Nopember (ITS)",
+      "zh": "Institut Teknologi Sepuluh Nopember (ITS)",
+      "qs": 509,
+      "the": null,
+      "us": 2104
+    },
+    {
+      "en": "INTI International University",
+      "zh": "INTI International University",
+      "qs": 509,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Ateneo de Manila University",
+      "zh": "Ateneo de Manila University",
+      "qs": 511,
+      "the": 1001,
+      "us": null
+    },
+    {
+      "en": "Singapore Management University",
+      "zh": "Singapore Management University",
+      "qs": 511,
+      "the": null,
+      "us": 596
+    },
+    {
+      "en": "SOAS University of London",
+      "zh": "SOAS University of London",
+      "qs": 511,
+      "the": 401,
+      "us": 1631
+    },
+    {
+      "en": "University of Bradford",
+      "zh": "University of Bradford",
+      "qs": 511,
+      "the": 501,
+      "us": 1043
+    },
+    {
+      "en": "Lebanese University",
+      "zh": "Lebanese University",
+      "qs": 515,
+      "the": 1201,
+      "us": 1778
+    },
+    {
+      "en": "Universitas Padjadjaran (UNPAD)",
+      "zh": "Universitas Padjadjaran (UNPAD)",
+      "qs": 515,
+      "the": 1201,
+      "us": 1210
+    },
+    {
+      "en": "Pontificia Universidad Católica Argentina Santa María de los Buenos Aires - UCA",
+      "zh": "布宜诺斯艾利斯大学",
+      "qs": 517,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Stirling",
+      "zh": "University of Stirling",
+      "qs": 517,
+      "the": 501,
+      "us": 949
+    },
+    {
+      "en": "Kyungpook National University",
+      "zh": "Kyungpook National University",
+      "qs": 519,
+      "the": 501,
+      "us": 758
+    },
+    {
+      "en": "Singapore University of Technology and Design",
+      "zh": "Singapore University of Technology and Design",
+      "qs": 519,
+      "the": null,
+      "us": 359
+    },
+    {
+      "en": "Universidad Austral - Argentina",
+      "zh": "Universidad Austral - Argentina",
+      "qs": 519,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Electronic Science and Technology of China",
+      "zh": "中国科学技术大学",
+      "qs": 519,
+      "the": 301,
+      "us": 152
+    },
+    {
+      "en": "Ural Federal University",
+      "zh": "Ural Federal University",
+      "qs": 519,
+      "the": 801,
+      "us": 550
+    },
+    {
+      "en": "University of Huddersfield",
+      "zh": "University of Huddersfield",
+      "qs": 524,
+      "the": 501,
+      "us": 1125
+    },
+    {
+      "en": "The University of Georgia",
+      "zh": "The University of Georgia",
+      "qs": 525,
+      "the": 351,
+      "us": 335
+    },
+    {
+      "en": "Boston College",
+      "zh": "Boston College",
+      "qs": 526,
+      "the": 251,
+      "us": 491
+    },
+    {
+      "en": "Chiang Mai University",
+      "zh": "Chiang Mai University",
+      "qs": 526,
+      "the": 1001,
+      "us": 693
+    },
+    {
+      "en": "University of Hull",
+      "zh": "University of Hull",
+      "qs": 526,
+      "the": 501,
+      "us": 721
+    },
+    {
+      "en": "University of Salamanca",
+      "zh": "University of Salamanca",
+      "qs": 526,
+      "the": 801,
+      "us": 806
+    },
+    {
+      "en": "The Education University of Hong Kong",
+      "zh": "香港大学",
+      "qs": 530,
+      "the": 195,
+      "us": 559
+    },
+    {
+      "en": "Universität Bremen",
+      "zh": "Universität Bremen",
+      "qs": 530,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Genoa",
+      "zh": "University of Genoa",
+      "qs": 530,
+      "the": 401,
+      "us": 386
+    },
+    {
+      "en": "University of Iowa",
+      "zh": "University of Iowa",
+      "qs": 530,
+      "the": 301,
+      "us": 249
+    },
+    {
+      "en": "University of Connecticut",
+      "zh": "University of Connecticut",
+      "qs": 534,
+      "the": 351,
+      "us": 312
+    },
+    {
+      "en": "King Khalid University",
+      "zh": "King Khalid University",
+      "qs": 535,
+      "the": 251,
+      "us": 306
+    },
+    {
+      "en": "Lebanese American University",
+      "zh": "Lebanese American University",
+      "qs": 535,
+      "the": 251,
+      "us": null
+    },
+    {
+      "en": "Prince Sultan University",
+      "zh": "Prince Sultan University",
+      "qs": 535,
+      "the": 351,
+      "us": 546
+    },
+    {
+      "en": "Universität Leipzig",
+      "zh": "Universität Leipzig",
+      "qs": 535,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Ljubljana",
+      "zh": "University of Ljubljana",
+      "qs": 535,
+      "the": 801,
+      "us": 491
+    },
+    {
+      "en": "Jinan University (China)",
+      "zh": "Jinan University (China)",
+      "qs": 540,
+      "the": 501,
+      "us": 324
+    },
+    {
+      "en": "University of Utah",
+      "zh": "University of Utah",
+      "qs": 540,
+      "the": 201,
+      "us": 170
+    },
+    {
+      "en": "Ain Shams University",
+      "zh": "Ain Shams University",
+      "qs": 542,
+      "the": 801,
+      "us": 290
+    },
+    {
+      "en": "Universiti Teknologi MARA - UiTM",
+      "zh": "Universiti Teknologi MARA - UiTM",
+      "qs": 542,
+      "the": null,
+      "us": 1203
+    },
+    {
+      "en": "University of Milano-Bicocca",
+      "zh": "University of Milano-Bicocca",
+      "qs": 542,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of the Punjab",
+      "zh": "University of the Punjab",
+      "qs": 542,
+      "the": 801,
+      "us": 762
+    },
+    {
+      "en": "Universität Ulm",
+      "zh": "Universität Ulm",
+      "qs": 546,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Hawaii at Mañoa",
+      "zh": "University of Hawaii at Mañoa",
+      "qs": 546,
+      "the": null,
+      "us": 482
+    },
+    {
+      "en": "University of Windsor",
+      "zh": "University of Windsor",
+      "qs": 546,
+      "the": 501,
+      "us": 1174
+    },
+    {
+      "en": "Florida State University",
+      "zh": "Florida State University",
+      "qs": 549,
+      "the": 301,
+      "us": 314
+    },
+    {
+      "en": "Northumbria University at Newcastle",
+      "zh": "Northumbria University at Newcastle",
+      "qs": 550,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Thammasat University",
+      "zh": "Thammasat University",
+      "qs": 551,
+      "the": 1201,
+      "us": 1500
+    },
+    {
+      "en": "Universiti Tenaga Nasional (UNITEN)",
+      "zh": "Universiti Tenaga Nasional (UNITEN)",
+      "qs": 551,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "Hitotsubashi University",
+      "zh": "Hitotsubashi University",
+      "qs": 553,
+      "the": 1201,
+      "us": null
+    },
+    {
+      "en": "University of Delaware",
+      "zh": "University of Delaware",
+      "qs": 553,
+      "the": 401,
+      "us": 466
+    },
+    {
+      "en": "Lahore University of Management Sciences (LUMS)",
+      "zh": "Lahore University of Management Sciences (LUMS)",
+      "qs": 555,
+      "the": 801,
+      "us": 1298
+    },
+    {
+      "en": "Indian Institute of Technology Indore",
+      "zh": "Indian Institute of Technology Indore",
+      "qs": 556,
+      "the": 501,
+      "us": 1401
+    },
+    {
+      "en": "University of Houston",
+      "zh": "University of Houston",
+      "qs": 556,
+      "the": 401,
+      "us": 390
+    },
+    {
+      "en": "Al Ain University",
+      "zh": "Al Ain University",
+      "qs": 558,
+      "the": 401,
+      "us": null
+    },
+    {
+      "en": "Coventry University",
+      "zh": "Coventry University",
+      "qs": 558,
+      "the": 601,
+      "us": 1033
+    },
+    {
+      "en": "Jawaharlal Nehru University",
+      "zh": "Jawaharlal Nehru University",
+      "qs": 558,
+      "the": 801,
+      "us": 1174
+    },
+    {
+      "en": "Sogang University",
+      "zh": "Sogang University",
+      "qs": 558,
+      "the": 801,
+      "us": 1569
+    },
+    {
+      "en": "University of Kwazulu-Natal",
+      "zh": "University of Kwazulu-Natal",
+      "qs": 558,
+      "the": 501,
+      "us": 421
+    },
+    {
+      "en": "Ajou University",
+      "zh": "Ajou University",
+      "qs": 563,
+      "the": 401,
+      "us": 1259
+    },
+    {
+      "en": "American University of the Middle East",
+      "zh": "American University of the Middle East",
+      "qs": 563,
+      "the": 601,
+      "us": 1471
+    },
+    {
+      "en": "University of Debrecen",
+      "zh": "University of Debrecen",
+      "qs": 563,
+      "the": 801,
+      "us": 904
+    },
+    {
+      "en": "Bangor University",
+      "zh": "Bangor University",
+      "qs": 566,
+      "the": 501,
+      "us": 891
+    },
+    {
+      "en": "Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi)",
+      "zh": "Indian Institute of Technology BHU Varanasi (IIT BHU Varanasi)",
+      "qs": 566,
+      "the": null,
+      "us": 1401
+    },
+    {
+      "en": "Renmin (People’s) University of China",
+      "zh": "Renmin (People’s) University of China",
+      "qs": 566,
+      "the": null,
+      "us": 343
+    },
+    {
+      "en": "Savitribai Phule Pune University",
+      "zh": "Savitribai Phule Pune University",
+      "qs": 566,
+      "the": 801,
+      "us": 1897
+    },
+    {
+      "en": "University of Minho",
+      "zh": "University of Minho",
+      "qs": 566,
+      "the": 601,
+      "us": 668
+    },
+    {
+      "en": "Colorado School of Mines",
+      "zh": "Colorado School of Mines",
+      "qs": 571,
+      "the": 401,
+      "us": 770
+    },
+    {
+      "en": "Hacettepe University",
+      "zh": "Hacettepe University",
+      "qs": 571,
+      "the": 801,
+      "us": 657
+    },
+    {
+      "en": "Isfahan University of Technology",
+      "zh": "Isfahan University of Technology",
+      "qs": 571,
+      "the": 601,
+      "us": 1030
+    },
+    {
+      "en": "Pontificia Universidade Católica do Rio de Janeiro (PUC - Rio)",
+      "zh": "Pontificia Universidade Católica do Rio de Janeiro (PUC - Rio)",
+      "qs": 571,
+      "the": null,
+      "us": 1435
+    },
+    {
+      "en": "Brno University of Technology",
+      "zh": "Brno University of Technology",
+      "qs": 575,
+      "the": 1201,
+      "us": 1075
+    },
+    {
+      "en": "Chandigarh University",
+      "zh": "Chandigarh University",
+      "qs": 575,
+      "the": null,
+      "us": 739
+    },
+    {
+      "en": "Universität Jena",
+      "zh": "Universität Jena",
+      "qs": 575,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Universidad Adolfo Ibáñez",
+      "zh": "Universidad Adolfo Ibáñez",
+      "qs": 578,
+      "the": null,
+      "us": 1520
+    },
+    {
+      "en": "Universiti Teknologi Brunei",
+      "zh": "Universiti Teknologi Brunei",
+      "qs": 578,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "University of Tabriz",
+      "zh": "University of Tabriz",
+      "qs": 578,
+      "the": 601,
+      "us": 663
+    },
+    {
+      "en": "Universidad Pontificia Comillas",
+      "zh": "Universidad Pontificia Comillas",
+      "qs": 581,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Florida International University",
+      "zh": "Florida International University",
+      "qs": 582,
+      "the": 401,
+      "us": 488
+    },
+    {
+      "en": "University of Iceland",
+      "zh": "University of Iceland",
+      "qs": 582,
+      "the": 501,
+      "us": 620
+    },
+    {
+      "en": "Charles Darwin University",
+      "zh": "Charles Darwin University",
+      "qs": 584,
+      "the": 401,
+      "us": 751
+    },
+    {
+      "en": "Eotvos Lorand University",
+      "zh": "Eotvos Lorand University",
+      "qs": 584,
+      "the": 801,
+      "us": 507
+    },
+    {
+      "en": "University of Dhaka",
+      "zh": "University of Dhaka",
+      "qs": 584,
+      "the": 801,
+      "us": 673
+    },
+    {
+      "en": "American University",
+      "zh": "American University",
+      "qs": 587,
+      "the": 601,
+      "us": 719
+    },
+    {
+      "en": "National Central University",
+      "zh": "National Central University",
+      "qs": 587,
+      "the": 1001,
+      "us": 1142
+    },
+    {
+      "en": "Université Claude Bernard Lyon 1",
+      "zh": "Université Claude Bernard Lyon 1",
+      "qs": 587,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Université Paul Sabatier Toulouse III",
+      "zh": "Université Paul Sabatier Toulouse III",
+      "qs": 587,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "American University of Ras Al Khaimah ( AURAK )",
+      "zh": "American University of Ras Al Khaimah ( AURAK )",
+      "qs": 591,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Bond University",
+      "zh": "Bond University",
+      "qs": 591,
+      "the": 401,
+      "us": 1308
+    },
+    {
+      "en": "Illinois Institute of Technology",
+      "zh": "Illinois Institute of Technology",
+      "qs": 591,
+      "the": 301,
+      "us": 821
+    },
+    {
+      "en": "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)",
+      "zh": "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)",
+      "qs": 591,
+      "the": 601,
+      "us": 770
+    },
+    {
+      "en": "Universidade Federal de Minas Gerais",
+      "zh": "Universidade Federal de Minas Gerais",
+      "qs": 595,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Zayed University",
+      "zh": "Zayed University",
+      "qs": 595,
+      "the": 401,
+      "us": 849
+    },
+    {
+      "en": "Asia Pacific University of Technology and Innovation (APU) Malaysia",
+      "zh": "Asia Pacific University of Technology and Innovation (APU) Malaysia",
+      "qs": 597,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Hasselt University",
+      "zh": "Hasselt University",
+      "qs": 597,
+      "the": 301,
+      "us": 912
+    },
+    {
+      "en": "Management and Science University - MSU Malaysia",
+      "zh": "Management and Science University - MSU Malaysia",
+      "qs": 597,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "Taipei Medical University",
+      "zh": "Taipei Medical University",
+      "qs": 597,
+      "the": 401,
+      "us": 864
+    },
+    {
+      "en": "Tulane University",
+      "zh": "Tulane University",
+      "qs": 597,
+      "the": 401,
+      "us": 371
+    },
+    {
+      "en": "University of Szeged",
+      "zh": "University of Szeged",
+      "qs": 597,
+      "the": 1001,
+      "us": 891
+    },
+    {
+      "en": "University of Texas at Dallas",
+      "zh": "University of Texas at Dallas",
+      "qs": 597,
+      "the": 401,
+      "us": 503
+    },
+    {
+      "en": "Canadian University of Dubai",
+      "zh": "Canadian University of Dubai",
+      "qs": 604,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "National Chengchi University",
+      "zh": "National Chengchi University",
+      "qs": 604,
+      "the": 1201,
+      "us": 2014
+    },
+    {
+      "en": "University of Eastern Finland",
+      "zh": "University of Eastern Finland",
+      "qs": 604,
+      "the": 401,
+      "us": 559
+    },
+    {
+      "en": "University of Siena",
+      "zh": "University of Siena",
+      "qs": 607,
+      "the": 351,
+      "us": 599
+    },
+    {
+      "en": "University of Tennessee",
+      "zh": "University of Tennessee",
+      "qs": 607,
+      "the": 401,
+      "us": 336
+    },
+    {
+      "en": "Nottingham Trent University",
+      "zh": "Nottingham Trent University",
+      "qs": 609,
+      "the": 601,
+      "us": 507
+    },
+    {
+      "en": "Peter the Great St.Petersburg Polytechnic University",
+      "zh": "Peter the Great St.Petersburg Polytechnic University",
+      "qs": 609,
+      "the": 801,
+      "us": 991
+    },
+    {
+      "en": "Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)",
+      "zh": "Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)",
+      "qs": 609,
+      "the": 601,
+      "us": 1266
+    },
+    {
+      "en": "University of Ulster",
+      "zh": "University of Ulster",
+      "qs": 609,
+      "the": null,
+      "us": 991
+    },
+    {
+      "en": "Applied Science University - Bahrain",
+      "zh": "Applied Science University - Bahrain",
+      "qs": 613,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "City University of New York",
+      "zh": "约克大学",
+      "qs": 613,
+      "the": 31,
+      "us": 36
+    },
+    {
+      "en": "International Islamic University Malaysia (IIUM)",
+      "zh": "International Islamic University Malaysia (IIUM)",
+      "qs": 613,
+      "the": null,
+      "us": 1461
+    },
+    {
+      "en": "Universidad de Concepción",
+      "zh": "Universidad de Concepción",
+      "qs": 613,
+      "the": null,
+      "us": 2104
+    },
+    {
+      "en": "University of Plymouth",
+      "zh": "University of Plymouth",
+      "qs": 613,
+      "the": 501,
+      "us": 809
+    },
+    {
+      "en": "Christian-Albrechts-Universität zu Kiel",
+      "zh": "Christian-Albrechts-Universität zu Kiel",
+      "qs": 618,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Dongguk University",
+      "zh": "Dongguk University",
+      "qs": 618,
+      "the": null,
+      "us": 912
+    },
+    {
+      "en": "Saint Joseph University of Beirut (USJ)",
+      "zh": "Saint Joseph University of Beirut (USJ)",
+      "qs": 618,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Zhengzhou University",
+      "zh": "Zhengzhou University",
+      "qs": 618,
+      "the": null,
+      "us": 208
+    },
+    {
+      "en": "Umm Al-Qura University",
+      "zh": "Umm Al-Qura University",
+      "qs": 622,
+      "the": 401,
+      "us": 562
+    },
+    {
+      "en": "University of New Brunswick",
+      "zh": "University of New Brunswick",
+      "qs": 622,
+      "the": 601,
+      "us": 1009
+    },
+    {
+      "en": "Diponegoro University",
+      "zh": "Diponegoro University",
+      "qs": 624,
+      "the": null,
+      "us": 1791
+    },
+    {
+      "en": "Oregon State University",
+      "zh": "Oregon State University",
+      "qs": 624,
+      "the": null,
+      "us": 417
+    },
+    {
+      "en": "Universidad del Pais Vasco",
+      "zh": "Universidad del Pais Vasco",
+      "qs": 624,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Yeshiva University",
+      "zh": "Yeshiva University",
+      "qs": 624,
+      "the": null,
+      "us": 639
+    },
+    {
+      "en": "Istanbul University",
+      "zh": "Istanbul University",
+      "qs": 628,
+      "the": 1201,
+      "us": 806
+    },
+    {
+      "en": "Kazakh National Pedagogical University Abai",
+      "zh": "Kazakh National Pedagogical University Abai",
+      "qs": 628,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Missouri University of Science and Technology",
+      "zh": "Missouri University of Science and Technology",
+      "qs": 628,
+      "the": 501,
+      "us": 864
+    },
+    {
+      "en": "National Chung Hsing University",
+      "zh": "National Chung Hsing University",
+      "qs": 628,
+      "the": 1201,
+      "us": 1564
+    },
+    {
+      "en": "Universidade de Santiago de Compostela",
+      "zh": "Universidade de Santiago de Compostela",
+      "qs": 628,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Crete",
+      "zh": "University of Crete",
+      "qs": 628,
+      "the": 601,
+      "us": 673
+    },
+    {
+      "en": "University of South Carolina",
+      "zh": "University of South Carolina",
+      "qs": 628,
+      "the": 401,
+      "us": 391
+    },
+    {
+      "en": "Tallinn University of Technology",
+      "zh": "Tallinn University of Technology",
+      "qs": 635,
+      "the": 601,
+      "us": 1127
+    },
+    {
+      "en": "Universität des Saarlandes",
+      "zh": "Universität des Saarlandes",
+      "qs": 635,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Portsmouth",
+      "zh": "University of Portsmouth",
+      "qs": 635,
+      "the": 401,
+      "us": 517
+    },
+    {
+      "en": "Lincoln University College, Malaysia",
+      "zh": "Lincoln University College, Malaysia",
+      "qs": 638,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Southern Cross University",
+      "zh": "Southern Cross University",
+      "qs": 638,
+      "the": 401,
+      "us": 1033
+    },
+    {
+      "en": "Universidad de Zaragoza",
+      "zh": "Universidad de Zaragoza",
+      "qs": 638,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Chemistry and Technology, Prague",
+      "zh": "University of Chemistry and Technology, Prague",
+      "qs": 638,
+      "the": 1201,
+      "us": 1888
+    },
+    {
+      "en": "University of Fribourg",
+      "zh": "University of Fribourg",
+      "qs": 642,
+      "the": 401,
+      "us": 682
+    },
+    {
+      "en": "Abo Akademi University",
+      "zh": "Abo Akademi University",
+      "qs": 643,
+      "the": null,
+      "us": 1290
+    },
+    {
+      "en": "Inha University",
+      "zh": "Inha University",
+      "qs": 643,
+      "the": 801,
+      "us": 1167
+    },
+    {
+      "en": "Libera Universita' di Bolzano",
+      "zh": "Libera Universita' di Bolzano",
+      "qs": 643,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Manchester Metropolitan University",
+      "zh": "Manchester Metropolitan University",
+      "qs": 643,
+      "the": 601,
+      "us": 693
+    },
+    {
+      "en": "University of Manitoba",
+      "zh": "University of Manitoba",
+      "qs": 643,
+      "the": 501,
+      "us": 471
+    },
+    {
+      "en": "King Faisal University",
+      "zh": "King Faisal University",
+      "qs": 648,
+      "the": 601,
+      "us": 540
+    },
+    {
+      "en": "University of Tromso, The Arctic University of Norway",
+      "zh": "University of Tromso, The Arctic University of Norway",
+      "qs": 648,
+      "the": null,
+      "us": 701
+    },
+    {
+      "en": "MGIMO University",
+      "zh": "MGIMO University",
+      "qs": 650,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Paris Lodron University of Salzburg",
+      "zh": "Paris Lodron University of Salzburg",
+      "qs": 650,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Universidad de la República (UdelaR)",
+      "zh": "Universidad de la República (UdelaR)",
+      "qs": 650,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Brescia",
+      "zh": "University of Brescia",
+      "qs": 650,
+      "the": 351,
+      "us": 609
+    },
+    {
+      "en": "China University of Mining and Technology",
+      "zh": "China University of Mining and Technology",
+      "qs": 654,
+      "the": null,
+      "us": 564
+    },
+    {
+      "en": "De La Salle University",
+      "zh": "De La Salle University",
+      "qs": 654,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Konkuk University",
+      "zh": "Konkuk University",
+      "qs": 654,
+      "the": 501,
+      "us": 1238
+    },
+    {
+      "en": "Université de Lille",
+      "zh": "Université de Lille",
+      "qs": 654,
+      "the": null,
+      "us": 351
+    },
+    {
+      "en": "University of Agriculture, Faisalabad",
+      "zh": "University of Agriculture, Faisalabad",
+      "qs": 654,
+      "the": null,
+      "us": 633
+    },
+    {
+      "en": "University of South Florida",
+      "zh": "佛罗里达大学",
+      "qs": 654,
+      "the": 351,
+      "us": 362
+    },
+    {
+      "en": "Bar-Ilan University",
+      "zh": "Bar-Ilan University",
+      "qs": 660,
+      "the": 601,
+      "us": 856
+    },
+    {
+      "en": "Ca' Foscari University of Venice",
+      "zh": "Ca' Foscari University of Venice",
+      "qs": 660,
+      "the": 501,
+      "us": 932
+    },
+    {
+      "en": "Kingston University, London",
+      "zh": "Kingston University, London",
+      "qs": 660,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Memorial University of Newfoundland",
+      "zh": "Memorial University of Newfoundland",
+      "qs": 660,
+      "the": 501,
+      "us": 751
+    },
+    {
+      "en": "COMSATS University Islamabad",
+      "zh": "COMSATS University Islamabad",
+      "qs": 664,
+      "the": 601,
+      "us": 410
+    },
+    {
+      "en": "Indian Institute of Technology Hyderabad (IITH)",
+      "zh": "Indian Institute of Technology Hyderabad (IITH)",
+      "qs": 664,
+      "the": null,
+      "us": 1322
+    },
+    {
+      "en": "University of Mumbai",
+      "zh": "University of Mumbai",
+      "qs": 664,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Oklahoma",
+      "zh": "University of Oklahoma",
+      "qs": 664,
+      "the": null,
+      "us": 514
+    },
+    {
+      "en": "Birla Institute of Technology and Science",
+      "zh": "Birla Institute of Technology and Science",
+      "qs": 668,
+      "the": 801,
+      "us": 1033
+    },
+    {
+      "en": "Chang Gung University",
+      "zh": "Chang Gung University",
+      "qs": 668,
+      "the": 601,
+      "us": 1216
+    },
+    {
+      "en": "Karl-Franzens-Universität Graz",
+      "zh": "Karl-Franzens-Universität Graz",
+      "qs": 668,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Lehigh University",
+      "zh": "Lehigh University",
+      "qs": 668,
+      "the": 601,
+      "us": 1049
+    },
+    {
+      "en": "Palacký University in Olomouc",
+      "zh": "Palacký University in Olomouc",
+      "qs": 668,
+      "the": 1001,
+      "us": 727
+    },
+    {
+      "en": "East China University of Science and Technology",
+      "zh": "中国科学技术大学",
+      "qs": 673,
+      "the": 601,
+      "us": 543
+    },
+    {
+      "en": "Stevens Institute of Technology",
+      "zh": "Stevens Institute of Technology",
+      "qs": 673,
+      "the": 501,
+      "us": 1158
+    },
+    {
+      "en": "Technische Universität Dortmund",
+      "zh": "Technische Universität Dortmund",
+      "qs": 673,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Beirut Arab University",
+      "zh": "Beirut Arab University",
+      "qs": 676,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "Jadavpur University",
+      "zh": "Jadavpur University",
+      "qs": 676,
+      "the": 1001,
+      "us": 1216
+    },
+    {
+      "en": "American University in Dubai",
+      "zh": "American University in Dubai",
+      "qs": 678,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "University of Haifa",
+      "zh": "University of Haifa",
+      "qs": 678,
+      "the": 501,
+      "us": 710
+    },
+    {
+      "en": "HUFS - Hankuk (Korea) University of Foreign Studies",
+      "zh": "HUFS - Hankuk (Korea) University of Foreign Studies",
+      "qs": 680,
+      "the": null,
+      "us": 2242
+    },
+    {
+      "en": "Nanjing University of Aeronautics and Astronautics",
+      "zh": "Nanjing University of Aeronautics and Astronautics",
+      "qs": 680,
+      "the": 601,
+      "us": 444
+    },
+    {
+      "en": "Ritsumeikan University",
+      "zh": "Ritsumeikan University",
+      "qs": 680,
+      "the": null,
+      "us": 1607
+    },
+    {
+      "en": "University of Brawijaya",
+      "zh": "University of Brawijaya",
+      "qs": 680,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Comenius University Bratislava",
+      "zh": "Comenius University Bratislava",
+      "qs": 684,
+      "the": 1201,
+      "us": 801
+    },
+    {
+      "en": "Ton Duc Thang University",
+      "zh": "Ton Duc Thang University",
+      "qs": 684,
+      "the": 601,
+      "us": 615
+    },
+    {
+      "en": "China University of Petroleum",
+      "zh": "China University of Petroleum",
+      "qs": 686,
+      "the": 501,
+      "us": 511
+    },
+    {
+      "en": "Cyprus University of Technology",
+      "zh": "Cyprus University of Technology",
+      "qs": 686,
+      "the": 501,
+      "us": 1290
+    },
+    {
+      "en": "Baku State University",
+      "zh": "Baku State University",
+      "qs": 688,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Tomsk Polytechnic University",
+      "zh": "Tomsk Polytechnic University",
+      "qs": 688,
+      "the": 801,
+      "us": 908
+    },
+    {
+      "en": "Université Côte d’Azur",
+      "zh": "Université Côte d’Azur",
+      "qs": 688,
+      "the": 601,
+      "us": 457
+    },
+    {
+      "en": "Eastern Mediterranean University",
+      "zh": "Eastern Mediterranean University",
+      "qs": 691,
+      "the": 601,
+      "us": 875
+    },
+    {
+      "en": "Universidade Federal do Rio Grande Do Sul",
+      "zh": "Universidade Federal do Rio Grande Do Sul",
+      "qs": 691,
+      "the": 601,
+      "us": 1884
+    },
+    {
+      "en": "Universität Regensburg",
+      "zh": "Universität Regensburg",
+      "qs": 691,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Vellore Institute of Technology (VIT), Vellore, India",
+      "zh": "Vellore Institute of Technology (VIT), Vellore, India",
+      "qs": 691,
+      "the": null,
+      "us": 716
+    },
+    {
+      "en": "Rensselaer Polytechnic Institute",
+      "zh": "Rensselaer Polytechnic Institute",
+      "qs": 695,
+      "the": 501,
+      "us": 1090
+    },
+    {
+      "en": "Symbiosis International (Deemed University)",
+      "zh": "Symbiosis International (Deemed University)",
+      "qs": 696,
+      "the": 601,
+      "us": 762
+    },
+    {
+      "en": "Ankara Üniversitesi",
+      "zh": "Ankara Üniversitesi",
+      "qs": 697,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Beijing University of Chemical Technology",
+      "zh": "Beijing University of Chemical Technology",
+      "qs": 697,
+      "the": 401,
+      "us": 359
+    },
+    {
+      "en": "Kazakh National Agrarian University",
+      "zh": "Kazakh National Agrarian University",
+      "qs": 697,
+      "the": null,
+      "us": null
+    },
+    {
+      "en": "Tokyo Medical and Dental University",
+      "zh": "Tokyo Medical and Dental University",
+      "qs": 697,
+      "the": 1001,
+      "us": 1461
+    },
+    {
+      "en": "Universidad de Alcalá",
+      "zh": "Universidad de Alcalá",
+      "qs": 697,
+      "the": null,
+      "us": 1075
+    },
+    {
+      "en": "University of Klagenfurt",
+      "zh": "University of Klagenfurt",
+      "qs": 697,
+      "the": 601,
+      "us": null
+    },
+    {
+      "en": "University of Missouri, Columbia",
+      "zh": "University of Missouri, Columbia",
+      "qs": 697,
+      "the": null,
+      "us": 441
+    }
+  ]
+}

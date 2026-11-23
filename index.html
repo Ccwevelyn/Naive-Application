@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naive Application</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,650;1,6..72,450&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=33">
+</head>
+<body>
+  <div class="app">
+    <aside class="panel">
+      <div class="topbar">
+        <header class="brand">
+          <span class="seal" aria-hidden="true">NA</span>
+          <div>
+            <p class="eyebrow" id="eyebrow"></p>
+            <h1>Naive Application</h1>
+          </div>
+        </header>
+        <div class="lang" id="lang">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+
+      <section class="block">
+        <div class="block-head">
+          <h2 id="region-heading"></h2>
+          <button type="button" id="select-all" class="text-btn"></button>
+        </div>
+        <div id="region-chips" class="region-rows"></div>
+      </section>
+
+      <section class="block">
+        <div class="block-head">
+          <h2 id="weight-heading"></h2>
+          <button type="button" id="reset-weights" class="text-btn"></button>
+        </div>
+        <div id="weights"></div>
+      </section>
+
+      <section class="author">
+        <h2 id="author-title"></h2>
+        <p id="author-body"></p>
+      </section>
+    </aside>
+
+    <main class="results">
+      <div class="results-head">
+      <div class="toolbar">
+        <div>
+          <p class="eyebrow" id="result-kicker"></p>
+          <h2 id="result-count"></h2>
+        </div>
+        <div class="toolbar-tools">
+          <label class="search">
+            <span class="sr" id="search-label"></span>
+            <input id="query" type="search" autocomplete="off">
+          </label>
+          <label class="sort">
+            <span id="subject-label"></span>
+            <select id="subject"></select>
+          </label>
+          <label class="sort">
+            <span id="sort-label"></span>
+            <select id="sort">
+              <option value="score"></option>
+              <option value="qs">QS</option>
+              <option value="the">THE</option>
+              <option value="usnews">U.S. News</option>
+              <option value="subject"></option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div id="mix" class="mix" aria-hidden="true"></div>
+      </div>
+      <div class="results-body">
+        <div class="results-scroll">
+          <ol id="list" class="list"></ol>
+        </div>
+        <div id="wake-scroll" class="wake-scroll is-off" role="scrollbar" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"></div>
+      </div>
+    </main>
+  </div>
+  <script src="data.js?v=20"></script>
+  <script src="subjects.js?v=12"></script>
+  <script src="app.js?v=44"></script>
+</body>
+</html>
