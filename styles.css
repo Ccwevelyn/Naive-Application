@@ -5,18 +5,9 @@
   --muted: #6f675e;
   --line: #ddd4c6;
   --accent: #b6402c;
-  --accent-soft: #f6e6df;
-  --pine: #1d6844;
-  --want: #1c1814;
-  --exclude: #b6402c;
   --shadow: 0 1px 0 rgba(28, 24, 20, 0.04);
   --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
   --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --rank: #1c1814;
-  --return: #b6402c;
-  --lab: #1d6844;
-  --industry: #6a4c78;
-  --price: #c46a2f;
 }
 
 * { box-sizing: border-box; }
@@ -102,13 +93,6 @@ h1 {
   letter-spacing: 0.04em;
 }
 
-.lede, .hint, .method-body p {
-  color: var(--muted);
-  font-size: 13px;
-}
-
-.lede { margin: 18px 0 8px; }
-
 .block { margin-top: 26px; }
 
 .block-head, .slider-row, .toolbar, .card-top, .break-row {
@@ -124,19 +108,16 @@ h2 {
   font-weight: 700;
 }
 
-.text-btn, .preset {
+.text-btn {
   border: 0;
   background: transparent;
   padding: 0;
   cursor: pointer;
-}
-
-.text-btn {
   color: var(--accent);
   font-size: 13px;
 }
 
-.chips, .presets {
+.chips {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -306,16 +287,6 @@ input[type="range"].accent::-webkit-slider-thumb { border-color: var(--accent); 
 }
 
 .author p { margin: 8px 0 0; }
-
-.method { margin-top: 28px; }
-
-.method summary {
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.method-body p { margin: 10px 0; }
 
 .results {
   position: sticky;

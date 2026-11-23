@@ -683,8 +683,7 @@
   function render() {
     const weightShare = weightFraction();
     const rankShare = share(rankBag());
-    const labShare = mixFraction(state.labMix);
-    const rows = rankSchools(weightShare, rankShare, labShare);
+    const rows = rankSchools(weightShare, rankShare);
 
     mix.replaceChildren();
     CRITERIA.forEach((criterion) => {
@@ -857,7 +856,7 @@
     return value == null ? "—" : value.toFixed(1);
   }
 
-  function rankSchools(weightShare, rankShare, labShare) {
+  function rankSchools(weightShare, rankShare) {
     const selected = new Set(state.selected);
     const query = state.query.trim().toLowerCase();
     const rows = DATA.schools.filter((school) => {
@@ -865,7 +864,7 @@
       if (!query) return true;
       const place = DATA.places[school.country];
       return (school.zh + " " + school.en + " " + place.zh + " " + place.en).toLowerCase().includes(query);
-    }).map((school) => scoreSchool(school, weightShare, rankShare, labShare));
+    }).map((school) => scoreSchool(school, weightShare, rankShare));
 
     const rankValue = (school, key) => (school[key] == null ? 100000 : school[key]);
     const sorters = {
@@ -879,8 +878,7 @@
     return rows;
   }
 
-  function scoreSchool(school, weightShare, rankShare, labShare) {
-    const place = DATA.places[school.country];
+  function scoreSchool(school, weightShare, rankShare) {
     const subjectRank = state.subject ? window.NAIVE_SUBJECTS.ranks[state.subject][school.id] ?? null : null;
     const parts = {
       qs: school.qs == null ? null : rankScore(school.qs),
@@ -914,7 +912,7 @@
       contrib[criterion.key] = value == null ? 0 : value * weightShare[criterion.key];
       total += contrib[criterion.key];
     });
-    return { school, place, parts, scores, used, contrib, total, subjectRank };
+    return { school, parts, scores, used, contrib, total, subjectRank };
   }
 
   function publishedCost(school) {
@@ -954,18 +952,16 @@
     return ready.reduce((total, item) => total + item.value * (item.weight / sum), 0);
   }
 
-  function usedShare(weightShare, scores) {
-    const keys = Object.keys(weightShare).filter((key) => scores[key] != null && weightShare[key] > 0);
-    const sum = keys.reduce((total, key) => total + weightShare[key], 0);
-    const out = {};
-    Object.keys(weightShare).forEach((key) => {
-      out[key] = sum > 0 && scores[key] != null ? weightShare[key] / sum : 0;
-    });
-    return out;
-  }
-
   function rankScore(rank) {
-    return Math.max(0, Math.min(100, 100 - 18 * Math.log(rank) / Math.log(4)));
+    const value = Number(rank);
+    if (!Number.isFinite(value) || value < 1) return 0;
+    const cleared = [50, 100, 150, 200, 500].reduce((count, edge) => {
+      return count + (value <= edge ? 1 : 0);
+    }, 0);
+    const bands = [[1, 50], [51, 100], [101, 150], [151, 200], [201, 500], [501, 1000]];
+    const band = bands.find(([start, end]) => value >= start && value <= end);
+    const within = band ? ((band[1] - value) / (band[1] - band[0])) * 6 : 0;
+    return Math.round(((cleared * 18 + within) / 96) * 1000) / 10;
   }
 
   function mixFraction(bag) {

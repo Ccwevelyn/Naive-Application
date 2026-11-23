@@ -30,111 +30,80 @@ REGION_LABELS = {
 }
 THE_PATH = Path(r"C:\Users\Asus\.cursor\projects\c-Users-Asus-Desktop-Naive-Appliation\agent-tools\f8aa0715-1602-4fd8-b28c-0becbb072729.txt")
 US_PATH = Path(r"C:\Users\Asus\.cursor\projects\c-Users-Asus-Desktop-Naive-Appliation\agent-tools\13b6f82a-edee-40a7-8e21-1429b5afa856.txt")
-ZH_PATH = Path(r"C:\Users\Asus\.cursor\projects\c-Users-Asus-Desktop-Naive-Appliation\agent-tools\qs2026-zh.txt")
-
-# safety, affordability (higher = easier to afford), chinese community, local jobs, livability
 PLACES = {
-    "United States of America": ("us", "us", "美国", "United States", 70, 38, 60, 86, 74),
-    "United Kingdom": ("gb", "uk", "英国", "United Kingdom", 72, 32, 78, 76, 73),
-    "Ireland": ("ie", "ie", "爱尔兰", "Ireland", 82, 48, 28, 64, 80),
-    "Switzerland": ("ch", "eu", "瑞士", "Switzerland", 95, 14, 22, 82, 92),
-    "Germany": ("de", "eu", "德国", "Germany", 86, 48, 28, 80, 82),
-    "France": ("fr", "eu", "法国", "France", 70, 42, 30, 70, 78),
-    "Netherlands": ("nl", "eu", "荷兰", "Netherlands", 82, 40, 28, 76, 82),
-    "Belgium": ("be", "eu", "比利时", "Belgium", 80, 48, 22, 70, 78),
-    "Sweden": ("se", "eu", "瑞典", "Sweden", 84, 42, 20, 72, 80),
-    "Denmark": ("dk", "eu", "丹麦", "Denmark", 88, 36, 18, 74, 84),
-    "Finland": ("fi", "eu", "芬兰", "Finland", 90, 44, 12, 68, 82),
-    "Norway": ("no", "eu", "挪威", "Norway", 90, 30, 10, 70, 84),
-    "Italy": ("it", "eu", "意大利", "Italy", 72, 50, 18, 58, 80),
-    "Spain": ("es", "eu", "西班牙", "Spain", 76, 55, 16, 60, 82),
-    "Portugal": ("pt", "eu", "葡萄牙", "Portugal", 80, 55, 12, 58, 82),
-    "Austria": ("at", "eu", "奥地利", "Austria", 88, 40, 16, 70, 86),
-    "Greece": ("gr", "eu", "希腊", "Greece", 70, 58, 8, 50, 74),
-    "Poland": ("pl", "eu", "波兰", "Poland", 78, 62, 8, 58, 70),
-    "Czechia": ("cz", "eu", "捷克", "Czechia", 82, 58, 10, 60, 76),
-    "Hungary": ("hu", "eu", "匈牙利", "Hungary", 76, 64, 10, 55, 68),
-    "Estonia": ("ee", "eu", "爱沙尼亚", "Estonia", 84, 55, 6, 58, 74),
-    "Lithuania": ("lt", "eu", "立陶宛", "Lithuania", 80, 62, 6, 52, 70),
-    "Slovakia": ("sk", "eu", "斯洛伐克", "Slovakia", 78, 60, 6, 52, 68),
-    "Slovenia": ("si", "eu", "斯洛文尼亚", "Slovenia", 84, 55, 8, 58, 78),
-    "Luxembourg": ("lu", "eu", "卢森堡", "Luxembourg", 90, 20, 12, 78, 84),
-    "Iceland": ("is", "eu", "冰岛", "Iceland", 92, 22, 4, 62, 80),
-    "Cyprus": ("cy", "eu", "塞浦路斯", "Cyprus", 80, 50, 8, 55, 78),
-    "Belarus": ("by", "eu", "白俄罗斯", "Belarus", 50, 75, 6, 40, 48),
-    "Canada": ("ca", "ca", "加拿大", "Canada", 80, 36, 82, 72, 78),
-    "Australia": ("au", "au", "澳大利亚", "Australia", 80, 38, 80, 68, 86),
-    "New Zealand": ("nz", "nz", "新西兰", "New Zealand", 86, 48, 45, 58, 88),
-    "Singapore": ("sg", "sg", "新加坡", "Singapore", 96, 28, 95, 86, 80),
-    "Hong Kong SAR, China": ("hk", "hk", "中国香港", "Hong Kong", 90, 16, 98, 82, 68),
-    "Macao SAR, China": ("mo", "mo", "中国澳门", "Macau", 92, 42, 96, 62, 70),
-    "China (Mainland)": ("cn", "cn", "中国大陆", "Mainland China", 78, 62, 100, 75, 64),
-    "Taiwan": ("tw", "tw", "中国台湾", "Taiwan", 84, 55, 90, 68, 76),
-    "Japan": ("jp", "jp", "日本", "Japan", 92, 40, 25, 70, 78),
-    "Republic of Korea": ("kr", "kr", "韩国", "South Korea", 84, 48, 30, 70, 72),
-    "Malaysia": ("my", "my", "马来西亚", "Malaysia", 68, 70, 55, 58, 70),
-    "India": ("in", "in", "印度", "India", 55, 80, 8, 60, 48),
-    "Saudi Arabia": ("sa", "me", "沙特阿拉伯", "Saudi Arabia", 78, 70, 10, 55, 58),
-    "Qatar": ("qa", "me", "卡塔尔", "Qatar", 86, 55, 12, 60, 64),
-    "United Arab Emirates": ("ae", "me", "阿联酋", "United Arab Emirates", 88, 50, 20, 68, 70),
-    "Israel": ("il", "me", "以色列", "Israel", 62, 42, 5, 78, 68),
-    "Iran (Islamic Republic of)": ("ir", "me", "伊朗", "Iran", 55, 75, 4, 40, 48),
-    "Lebanon": ("lb", "me", "黎巴嫩", "Lebanon", 40, 55, 6, 42, 48),
-    "Jordan": ("jo", "me", "约旦", "Jordan", 68, 60, 8, 48, 58),
-    "Oman": ("om", "me", "阿曼", "Oman", 84, 55, 8, 55, 66),
-    "Kuwait": ("kw", "me", "科威特", "Kuwait", 80, 48, 15, 58, 62),
-    "Bahrain": ("bh", "me", "巴林", "Bahrain", 80, 50, 12, 60, 66),
-    "Northern Cyprus": ("nc", "me", "北塞浦路斯", "Northern Cyprus", 72, 60, 8, 45, 64),
-    "Argentina": ("ar", "latam", "阿根廷", "Argentina", 48, 75, 8, 45, 58),
-    "Chile": ("cl", "latam", "智利", "Chile", 62, 60, 8, 52, 70),
-    "Mexico": ("mx", "latam", "墨西哥", "Mexico", 42, 68, 8, 55, 60),
-    "Brazil": ("br", "latam", "巴西", "Brazil", 45, 70, 8, 55, 62),
-    "Colombia": ("co", "latam", "哥伦比亚", "Colombia", 48, 65, 6, 50, 62),
-    "Peru": ("pe", "latam", "秘鲁", "Peru", 50, 68, 8, 48, 60),
-    "Costa Rica": ("cr", "latam", "哥斯达黎加", "Costa Rica", 68, 55, 6, 50, 74),
-    "Uruguay": ("uy", "latam", "乌拉圭", "Uruguay", 70, 58, 6, 52, 72),
-    "Indonesia": ("id", "asia", "印度尼西亚", "Indonesia", 58, 75, 15, 50, 58),
-    "Thailand": ("th", "asia", "泰国", "Thailand", 64, 72, 30, 52, 66),
-    "Kazakhstan": ("kz", "asia", "哈萨克斯坦", "Kazakhstan", 62, 75, 10, 45, 52),
-    "Türkiye": ("tr", "asia", "土耳其", "Turkey", 62, 65, 8, 52, 60),
-    "Pakistan": ("pk", "asia", "巴基斯坦", "Pakistan", 42, 82, 6, 42, 42),
-    "Philippines": ("ph", "asia", "菲律宾", "Philippines", 55, 72, 20, 50, 58),
-    "Viet Nam": ("vn", "asia", "越南", "Vietnam", 68, 75, 18, 55, 62),
-    "Brunei Darussalam": ("bn", "asia", "文莱", "Brunei", 88, 50, 25, 55, 70),
-    "Bangladesh": ("bd", "asia", "孟加拉国", "Bangladesh", 45, 82, 4, 42, 44),
-    "Uzbekistan": ("uz", "asia", "乌兹别克斯坦", "Uzbekistan", 60, 78, 6, 42, 50),
-    "Azerbaijan": ("az", "asia", "阿塞拜疆", "Azerbaijan", 64, 70, 4, 48, 55),
-    "South Africa": ("za", "af", "南非", "South Africa", 40, 65, 8, 48, 60),
-    "Egypt": ("eg", "af", "埃及", "Egypt", 48, 75, 6, 45, 52),
-    "Russian Federation": ("ru", "eu", "俄罗斯", "Russia", 55, 72, 8, 48, 52),
-}
-
-# Country-level international master's tuition, in 万元 CNY per year.
-# A reference for that country, not a school's own invoice.
-FEE = {
-    "us": 42, "gb": 28, "ie": 18, "ch": 2, "de": 2, "fr": 5, "nl": 15, "be": 6,
-    "se": 12, "dk": 12, "fi": 10, "no": 10, "it": 4, "es": 5, "pt": 5, "at": 3,
-    "gr": 3, "pl": 4, "cz": 6, "hu": 6, "ee": 5, "lt": 5, "sk": 4, "si": 5,
-    "lu": 8, "is": 2, "cy": 8, "by": 3, "ca": 22, "au": 26, "nz": 20, "sg": 28,
-    "hk": 24, "mo": 12, "cn": 2, "tw": 3, "jp": 3, "kr": 5, "my": 6, "in": 3,
-    "sa": 8, "qa": 18, "ae": 16, "il": 8, "ir": 2, "lb": 6, "jo": 5, "om": 8,
-    "kw": 8, "bh": 8, "nc": 6, "ar": 3, "cl": 6, "mx": 5, "br": 4, "co": 5,
-    "pe": 4, "cr": 6, "uy": 5, "id": 4, "th": 6, "kz": 4, "tr": 4, "pk": 2,
-    "ph": 4, "vn": 4, "bn": 8, "bd": 2, "uz": 3, "az": 4, "za": 5, "eg": 3, "ru": 4,
-}
-
-# Country-level student living cost for one year, in 万元 CNY, excluding tuition.
-# Added to FEE for the total-spend criterion. Not a separate score, and not a school's invoice.
-LIVING = {
-    "us": 15, "gb": 12, "ie": 10, "ch": 16, "de": 9, "fr": 8, "nl": 9, "be": 8,
-    "se": 8, "dk": 11, "fi": 8, "no": 11, "it": 8, "es": 7, "pt": 7, "at": 9,
-    "gr": 7, "pl": 5, "cz": 6, "hu": 5, "ee": 6, "lt": 5, "sk": 5, "si": 6,
-    "lu": 14, "is": 14, "cy": 7, "by": 3, "ca": 11, "au": 14, "nz": 10, "sg": 9,
-    "hk": 11, "mo": 8, "cn": 5, "tw": 5, "jp": 8, "kr": 6, "my": 3, "in": 2,
-    "sa": 6, "qa": 10, "ae": 9, "il": 10, "ir": 2, "lb": 4, "jo": 4, "om": 6,
-    "kw": 7, "bh": 6, "nc": 6, "ar": 4, "cl": 6, "mx": 4, "br": 4, "co": 3,
-    "pe": 3, "cr": 6, "uy": 5, "id": 3, "th": 4, "kz": 3, "tr": 4, "pk": 2,
-    "ph": 3, "vn": 3, "bn": 6, "bd": 2, "uz": 2, "az": 3, "za": 4, "eg": 2, "ru": 4,
+    "United States of America": ("us", "us", "美国", "United States"),
+    "United Kingdom": ("gb", "uk", "英国", "United Kingdom"),
+    "Ireland": ("ie", "ie", "爱尔兰", "Ireland"),
+    "Switzerland": ("ch", "eu", "瑞士", "Switzerland"),
+    "Germany": ("de", "eu", "德国", "Germany"),
+    "France": ("fr", "eu", "法国", "France"),
+    "Netherlands": ("nl", "eu", "荷兰", "Netherlands"),
+    "Belgium": ("be", "eu", "比利时", "Belgium"),
+    "Sweden": ("se", "eu", "瑞典", "Sweden"),
+    "Denmark": ("dk", "eu", "丹麦", "Denmark"),
+    "Finland": ("fi", "eu", "芬兰", "Finland"),
+    "Norway": ("no", "eu", "挪威", "Norway"),
+    "Italy": ("it", "eu", "意大利", "Italy"),
+    "Spain": ("es", "eu", "西班牙", "Spain"),
+    "Portugal": ("pt", "eu", "葡萄牙", "Portugal"),
+    "Austria": ("at", "eu", "奥地利", "Austria"),
+    "Greece": ("gr", "eu", "希腊", "Greece"),
+    "Poland": ("pl", "eu", "波兰", "Poland"),
+    "Czechia": ("cz", "eu", "捷克", "Czechia"),
+    "Hungary": ("hu", "eu", "匈牙利", "Hungary"),
+    "Estonia": ("ee", "eu", "爱沙尼亚", "Estonia"),
+    "Lithuania": ("lt", "eu", "立陶宛", "Lithuania"),
+    "Slovakia": ("sk", "eu", "斯洛伐克", "Slovakia"),
+    "Slovenia": ("si", "eu", "斯洛文尼亚", "Slovenia"),
+    "Luxembourg": ("lu", "eu", "卢森堡", "Luxembourg"),
+    "Iceland": ("is", "eu", "冰岛", "Iceland"),
+    "Cyprus": ("cy", "eu", "塞浦路斯", "Cyprus"),
+    "Belarus": ("by", "eu", "白俄罗斯", "Belarus"),
+    "Canada": ("ca", "ca", "加拿大", "Canada"),
+    "Australia": ("au", "au", "澳大利亚", "Australia"),
+    "New Zealand": ("nz", "nz", "新西兰", "New Zealand"),
+    "Singapore": ("sg", "sg", "新加坡", "Singapore"),
+    "Hong Kong SAR, China": ("hk", "hk", "中国香港", "Hong Kong"),
+    "Macao SAR, China": ("mo", "mo", "中国澳门", "Macau"),
+    "China (Mainland)": ("cn", "cn", "中国大陆", "Mainland China"),
+    "Taiwan": ("tw", "tw", "中国台湾", "Taiwan"),
+    "Japan": ("jp", "jp", "日本", "Japan"),
+    "Republic of Korea": ("kr", "kr", "韩国", "South Korea"),
+    "Malaysia": ("my", "my", "马来西亚", "Malaysia"),
+    "India": ("in", "in", "印度", "India"),
+    "Saudi Arabia": ("sa", "me", "沙特阿拉伯", "Saudi Arabia"),
+    "Qatar": ("qa", "me", "卡塔尔", "Qatar"),
+    "United Arab Emirates": ("ae", "me", "阿联酋", "United Arab Emirates"),
+    "Israel": ("il", "me", "以色列", "Israel"),
+    "Iran (Islamic Republic of)": ("ir", "me", "伊朗", "Iran"),
+    "Lebanon": ("lb", "me", "黎巴嫩", "Lebanon"),
+    "Jordan": ("jo", "me", "约旦", "Jordan"),
+    "Oman": ("om", "me", "阿曼", "Oman"),
+    "Kuwait": ("kw", "me", "科威特", "Kuwait"),
+    "Bahrain": ("bh", "me", "巴林", "Bahrain"),
+    "Northern Cyprus": ("nc", "me", "北塞浦路斯", "Northern Cyprus"),
+    "Argentina": ("ar", "latam", "阿根廷", "Argentina"),
+    "Chile": ("cl", "latam", "智利", "Chile"),
+    "Mexico": ("mx", "latam", "墨西哥", "Mexico"),
+    "Brazil": ("br", "latam", "巴西", "Brazil"),
+    "Colombia": ("co", "latam", "哥伦比亚", "Colombia"),
+    "Peru": ("pe", "latam", "秘鲁", "Peru"),
+    "Costa Rica": ("cr", "latam", "哥斯达黎加", "Costa Rica"),
+    "Uruguay": ("uy", "latam", "乌拉圭", "Uruguay"),
+    "Indonesia": ("id", "asia", "印度尼西亚", "Indonesia"),
+    "Thailand": ("th", "asia", "泰国", "Thailand"),
+    "Kazakhstan": ("kz", "asia", "哈萨克斯坦", "Kazakhstan"),
+    "Türkiye": ("tr", "asia", "土耳其", "Turkey"),
+    "Pakistan": ("pk", "asia", "巴基斯坦", "Pakistan"),
+    "Philippines": ("ph", "asia", "菲律宾", "Philippines"),
+    "Viet Nam": ("vn", "asia", "越南", "Vietnam"),
+    "Brunei Darussalam": ("bn", "asia", "文莱", "Brunei"),
+    "Bangladesh": ("bd", "asia", "孟加拉国", "Bangladesh"),
+    "Uzbekistan": ("uz", "asia", "乌兹别克斯坦", "Uzbekistan"),
+    "Azerbaijan": ("az", "asia", "阿塞拜疆", "Azerbaijan"),
+    "South Africa": ("za", "af", "南非", "South Africa"),
+    "Egypt": ("eg", "af", "埃及", "Egypt"),
+    "Russian Federation": ("ru", "eu", "俄罗斯", "Russia"),
 }
 
 REGION_ORDER = [
@@ -555,29 +524,6 @@ def parse_zh_pdf(path):
     return rows
 
 
-def parse_zh_names():
-    countries = {
-        "美国", "英国", "瑞士", "新加坡", "中国香港", "中国", "澳大利亚", "荷兰", "法国",
-        "加拿大", "日本", "韩国", "比利时", "中国台湾", "新西兰", "沙特阿拉伯", "马来西亚",
-        "马拉西亚", "瑞典", "爱尔兰", "丹麦", "芬兰", "意大利", "印度", "卡塔尔", "挪威",
-        "西班牙", "阿根廷", "智利", "墨西哥", "印度尼西亚", "南非", "奥地利", "巴西",
-        "阿拉伯联合酋长国", "哈萨克斯坦", "德国", "俄罗斯", "以色列", "泰国",
-    }
-    names = []
-    if not ZH_PATH.exists():
-        return names
-    for raw in ZH_PATH.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line or line in countries or re.fullmatch(r"\d+", line):
-            continue
-        if line.startswith("排名") or line.startswith("高校") or line.startswith("国家") or line.startswith("注"):
-            continue
-        if line.startswith("2026") or line.startswith("发表") or line.startswith("地址"):
-            continue
-        names.append(re.sub(r"\s+", "", line).replace("（", "（"))
-    return names
-
-
 def parse_rank_token(token):
     token = token.strip().replace(",", "")
     if not token or token.lower() == "unranked":
@@ -606,9 +552,7 @@ def parse_the():
             "rank": rank,
             "name": cols[3],
             "env": score_num(cols[7]),
-            "qual": score_num(cols[8]),
             "industry": score_num(cols[9]),
-            "intl": score_num(cols[10]),
             "key": norm(cols[3]),
         })
     return rows
@@ -616,7 +560,6 @@ def parse_the():
 
 def parse_usnews():
     rows = []
-    pattern = re.compile(r"\|\s*([0-9,]+\s*(?:tie)?|Unranked)\s*\|\s*([^|]+?)\s*\|")
     for line in US_PATH.read_text(encoding="utf-8").splitlines():
         if not line.startswith("|"):
             continue
@@ -696,7 +639,6 @@ def main():
     qs_rows = parse_qs()
     settle_map = load_settle()
     fsr_pool = parse_fsr()
-    zh_names = parse_zh_names()
     zh_pool = parse_zh_ranked(ZH_RANKED_PATH) + parse_zh_pdf(ZH_PDF_PATH) + parse_zh_tsv(ZH_TSV_PATH)
     the_pool = parse_the()
     us_pool = parse_usnews()
@@ -704,14 +646,13 @@ def main():
     used = set()
     missed_the = []
     missed_us = []
-    zh_index = 0
     for row in qs_rows:
         key = norm(row["en"])
         zh = ZH_BY_EN.get(row["en"])
         if not zh:
             named = lookup(row["en"], zh_pool)
             zh = named["zh"] if named else row["en"]
-        code, region, zh_place, en_place, safety, afford, chinese, jobs, live = PLACES[row["country"]]
+        code, region = PLACES[row["country"]][:2]
         if region == "cn":
             continue
         the = lookup(row["en"], the_pool)
@@ -731,9 +672,7 @@ def main():
             "the": None if the is None else the["rank"],
             "usnews": None if us is None else us["rank"],
             "researchEnv": None if the is None else the["env"],
-            "researchQual": None if the is None else the["qual"],
             "industry": None if the is None else the["industry"],
-            "intl": None if the is None else the["intl"],
             "faculty": None if fsr is None else fsr["faculty"],
             "setting": settle_map.get(row["en"], "unknown"),
         })
@@ -749,30 +688,21 @@ def main():
             "the": None,
             "usnews": None,
             "researchEnv": None,
-            "researchQual": None,
             "industry": None,
-            "intl": None,
             "faculty": None,
             "setting": settle_map.get(item["en"], "unknown"),
         })
     present = {school["region"] for school in schools}
     regions = [{"id": rid, "zh": zh, "en": en} for rid, zh, en in REGION_ORDER if rid in present]
     places = {}
-    for country, (code, region, zh, en, safety, afford, chinese, jobs, live) in PLACES.items():
+    for code, _region, zh, en in PLACES.values():
         if any(school["country"] == code for school in schools):
-            places[code] = {
-                "zh": zh, "en": en,
-                "safety": safety, "afford": afford, "chinese": chinese, "jobs": jobs, "live": live,
-                "fee": FEE.get(code),
-                "living": LIVING.get(code),
-            }
+            places[code] = {"zh": zh, "en": en}
     payload = {"regions": regions, "places": places, "schools": schools}
     text = "window.NAIVE = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n"
     (ROOT / "data.js").write_text(text, encoding="utf-8")
     report = {
         "schools": len(schools),
-        "zh_names": len(zh_names),
-        "zh_used": zh_index,
         "missed_the": missed_the,
         "missed_us": missed_us,
         "sample": [{"en": s["en"], "zh": s["zh"], "qs": s["qs"], "the": s["the"], "us": s["usnews"]} for s in schools],
