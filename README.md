@@ -1,5 +1,7 @@
 # Naive Application
 
+至于为什么是 Naive Application！因为，我对于申请来说真的很稚嫩啦~ 同时，我希望在申请中稚嫩的你和我，都可以有一个好的结果。
+
 https://naive-application.netlify.app/
 
 这个页面用 Multiple Criteria Analysis【非常感谢大三 risk management 课程让我学到了这个】 给硕士选校排一个综合分。下面只说明两件事：各项权重怎么加，以及一份名次怎么变成排名分。
