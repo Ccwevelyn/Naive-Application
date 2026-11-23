@@ -16,6 +16,11 @@
       scrollList: "学校列表",
       schools: "所",
       search: "搜索学校",
+      guide: "教程",
+      guideKicker: "教程",
+      guideClose: "关闭",
+      guidePrev: "上一页",
+      guideNext: "下一页",
       subject: "专业",
       subjectNone: "不按专业",
       subjectSort: "QS 学科",
@@ -71,6 +76,11 @@
       scrollList: "School list",
       schools: "schools",
       search: "Search schools",
+      guide: "Documentation",
+      guideKicker: "Documentation",
+      guideClose: "Close",
+      guidePrev: "Back",
+      guideNext: "Next",
       subject: "Subject",
       subjectNone: "No subject",
       subjectSort: "QS subject",
@@ -257,6 +267,8 @@
     { zh: "非洲与中东", en: "Africa & Middle East", lines: [["af", "me"]] },
   ];
 
+  let guidePage = 1;
+
   paint();
 
   function t(key) {
@@ -303,6 +315,12 @@
     document.getElementById("author-body").textContent = t("authorBody");
     document.getElementById("result-kicker").textContent = t("kicker");
     document.getElementById("wake-scroll").setAttribute("aria-label", t("scrollList"));
+    document.getElementById("guide-link").textContent = t("guide");
+    document.getElementById("guide-kicker").textContent = t("guideKicker");
+    document.getElementById("guide-close").textContent = t("guideClose");
+    document.getElementById("guide-prev").textContent = t("guidePrev");
+    document.getElementById("guide-next").textContent = t("guideNext");
+    showGuidePage(guidePage);
     document.getElementById("search-label").textContent = t("search");
     document.getElementById("subject-label").textContent = t("subject");
     document.getElementById("sort-label").textContent = t("sort");
@@ -319,6 +337,29 @@
     renderWeights();
     render();
   }
+
+  function showGuidePage(page) {
+    guidePage = page;
+    const lang = state.lang === "en" ? "en" : "zh";
+    document.querySelectorAll("#guide [data-page]").forEach((node) => {
+      node.hidden = !(node.dataset.langBlock === lang && node.dataset.page === String(page));
+    });
+    document.getElementById("guide-prev").style.visibility = page === 1 ? "hidden" : "visible";
+    document.getElementById("guide-next").style.visibility = page === 2 ? "hidden" : "visible";
+    document.getElementById("guide-step").textContent = page + " / 2";
+  }
+
+  const guideDialog = document.getElementById("guide");
+  document.getElementById("guide-link").addEventListener("click", () => {
+    showGuidePage(1);
+    guideDialog.showModal();
+  });
+  document.getElementById("guide-close").addEventListener("click", () => guideDialog.close());
+  document.getElementById("guide-next").addEventListener("click", () => showGuidePage(2));
+  document.getElementById("guide-prev").addEventListener("click", () => showGuidePage(1));
+  guideDialog.addEventListener("click", (event) => {
+    if (event.target === guideDialog) guideDialog.close();
+  });
 
   function renderSubjectOptions() {
     const known = new Set(window.NAIVE_SUBJECTS.list.map((item) => item.id));
@@ -815,7 +856,7 @@
   function detailRows(row) {
     const rankMeta = row.scores.rank == null
       ? t("missing")
-      : "QS " + num(row.parts.qs) + " · THE " + num(row.parts.the) + " · U.S. News " + num(row.parts.usnews) + (state.subject ? " · " + t("qsSubject") + " " + (row.subjectRank == null ? "—" : row.subjectRank) : "") + " → " + row.scores.rank.toFixed(1) + " × " + percentText(row.used.rank) + " = " + row.contrib.rank.toFixed(1);
+      : "QS " + num(row.parts.qs) + " · THE " + num(row.parts.the) + " · U.S. News " + num(row.parts.usnews) + (state.subject ? " · " + t("qsSubject") + " " + num(row.parts.subject) : "") + " → " + row.scores.rank.toFixed(1) + " × " + percentText(row.used.rank) + " = " + row.contrib.rank.toFixed(1);
     return [
       { label: t("rank"), meta: rankMeta },
       { label: t("lab"), meta: mixMeta(row, "lab", [[t("env"), row.parts.env], [t("faculty"), row.parts.faculty]]) },

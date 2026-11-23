@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,650;1,6..72,450&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=34">
+  <link rel="stylesheet" href="styles.css?v=36">
 </head>
 <body>
   <div class="app">
@@ -50,6 +50,9 @@
 
     <main class="results">
       <div class="results-head">
+      <div class="results-corner">
+        <button type="button" class="doc-link" id="guide-link"></button>
+      </div>
       <div class="toolbar">
         <div>
           <p class="eyebrow" id="result-kicker"></p>
@@ -86,8 +89,123 @@
       </div>
     </main>
   </div>
-  <script src="data.js?v=21"></script>
+  <script src="data.js?v=22"></script>
   <script src="subjects.js?v=12"></script>
-  <script src="app.js?v=46"></script>
+  <dialog id="guide" class="guide">
+    <div class="guide-bar">
+      <p class="eyebrow" id="guide-kicker"></p>
+      <button type="button" class="text-btn" id="guide-close"></button>
+    </div>
+    <div data-lang-block="zh" data-page="1">
+      <h2>怎么操作</h2>
+      <ol>
+        <li>先勾地区。页面一开始是 0 所。点一次是选上，再点一次取消。地区标题旁边的「全选」在全部选中后会变成「全不选」。</li>
+        <li>搜索框认中文名，也认英文名。</li>
+        <li>专业下拉选了一门之后，综合排名里会多出一根 QS 学科拉杆。不选专业，这一项不参加。</li>
+        <li>左边五项拉杆是综合排名、实验室资源、产业连接、环境、学费。拉杆上的数字是它在综合分里占的百分比，五项加起来不能超过 100。没拉到的部分空着，不补进综合分。</li>
+        <li>综合排名下面的央国企、能源、互联网大厂、外企，只会改 QS、THE、U.S. News 三根拉杆。自己拖这三根，这四个选项会取消。</li>
+        <li>环境要先勾想去的地点类型。学校对上是 100 分，对不上是 40 分。没标注地点类型就跳过。</li>
+        <li>学费要先填一个最高学费，单位是万元/年。公布学费不超过这个数，分数是（最高学费 − 学费）÷ 最高学费 × 100。超过则是 0。没填最高学费，这一项不算。</li>
+        <li>点学校卡片中间的箭头，可以看每一项怎么加出来。页面左上方可以在中文和 English 之间切换。</li>
+      </ol>
+    </div>
+    <div data-lang-block="zh" data-page="2" hidden>
+      <h2>数据从哪来，分数怎么加</h2>
+      <p>这是一份选校草稿，用来按你自己的权重排一个顺序。它不是官方排名，也不代替任何学校的录取结果。某一项没有数字，这一项就跳过，它的权重也不分给别的项。</p>
+      <p>名次来自三份世界大学排名，再加上 QS 的学科排名：</p>
+      <ul>
+        <li><a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener">QS 世界大学排名</a>。这里收入有确切名次的学校，到第 697 名。701–710 起的区间榜没有放进来。中外合办单独一列，多数没有世界排名。</li>
+        <li><a href="https://www.timeshighereducation.com/world-university-rankings" target="_blank" rel="noopener">泰晤士高等教育世界大学排名</a>。名次、科研环境、产业连接都来自这里。后面大量学校只公布区间，页面用的是区间起点。</li>
+        <li><a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank" rel="noopener">U.S. News 世界大学排名</a>。</li>
+        <li>QS 学科用的是这门学科榜自己的序号，目前有计算机、电气与电子、商业与管理、经济学、数学、物理与天文、化学、医学、生物科学。</li>
+      </ul>
+      <p>四份名次用同一张台阶表。卡片角标是公布名次，点开之后那一行是换算后的分数。台阶在 50、100、150、200、500。同一档里只轻轻变化，跨过一道线才掉一大截。第 1 名是 100 分，第 1000 名及以后是 0 分。</p>
+      <table>
+        <thead><tr><th>名次</th><th>分数</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>100</td></tr>
+          <tr><td>50</td><td>93.8</td></tr>
+          <tr><td>51</td><td>81.3</td></tr>
+          <tr><td>100</td><td>75.0</td></tr>
+          <tr><td>101</td><td>62.5</td></tr>
+          <tr><td>150</td><td>56.3</td></tr>
+          <tr><td>200</td><td>37.5</td></tr>
+          <tr><td>500</td><td>18.8</td></tr>
+          <tr><td>501</td><td>6.3</td></tr>
+          <tr><td>1000 及以后</td><td>0</td></tr>
+        </tbody>
+      </table>
+      <p>这些线来自公开的人才和落户文件，不是本页自己划的：</p>
+      <ul>
+        <li><a href="https://rsj.sh.gov.cn/tsj_17090/20220608/t0035_1407350.html" target="_blank" rel="noopener">上海市人社局 2022 年 6 月 8 日特殊支持</a>：前 50 与 51–100 是两种待遇。这项执行到 2023 年 6 月。</li>
+        <li><a href="http://gzw.lyg.gov.cn/lygsrmzfgyzcjdglwyh/tzgg/content/1ab79f2f-d42c-434f-8186-b17562f0135b.html" target="_blank" rel="noopener">连云港市国资委 2026 年市属国企选聘</a>：QS 世界排名前 100。</li>
+        <li><a href="https://www.szns.gov.cn/hdjlpt/detail?pid=3146874" target="_blank" rel="noopener">深圳市南山区人社局 2025 年 4 月 28 日答复</a>：四个榜单任一前 150。</li>
+        <li><a href="https://www.fuzhou.gov.cn/zwgk/tzgg/202603/t20260303_5290788.htm" target="_blank" rel="noopener">福州市人社局 2026 年 2 月 24 日通知</a>：ARWU、QS、THE 任一前 200。</li>
+        <li><a href="https://service.shanghai.gov.cn/XingZhengWenDangKuJyh/XZGFDetails.aspx?docid=251211153125AXa5k6Rx23GCtI2Tuh4" target="_blank" rel="noopener">沪人才规〔2025〕3 号</a>把高水平大学定为前 500。<a href="https://www.beijing.gov.cn/fuwu/bmfw/bmzt/gzjzhzh/hdq/202609/P020260918561859215429.pdf" target="_blank" rel="noopener">海淀区青年人才工作居住证指南</a>同样是前 500。</li>
+      </ul>
+      <p>软科写在上海、南山和福州的文件里。这个页面没有软科名次，所以软科不参加计算。完整的权重和换算写在 <a href="README.md" target="_blank" rel="noopener">README</a>。</p>
+      <p>实验室资源是泰晤士的科研环境，加上 QS 的师生比分数。产业连接是泰晤士的 Industry。这三项已经是百分制分数，直接进入综合分。</p>
+      <p>学费来自 <a href="https://studypath.cc/dataset" target="_blank" rel="noopener">StudyPath</a>（<a href="https://doi.org/10.5281/zenodo.22979730" target="_blank" rel="noopener">doi:10.5281/zenodo.22979730</a>，CC BY 4.0）。用的是该校页面上最低的、可以折成年费的国际学生学费，可能是一门本科课程，也可能是 0。它不是某一门硕士的账单。美元按 <a href="https://www.frankfurter.app/" target="_blank" rel="noopener">Frankfurter</a> 2026-11-20 的汇率换成人民币，1 美元 = 6.6777 元。住宿和生活费没有写进这一项。</p>
+      <p>地点类型是本页的标注，用来对上你想去的大学城、城市、市中心、城区或乡野。它不是一份公布的环境指数。没有标注的学校，环境这一项跳过。</p>
+    </div>
+    <div data-lang-block="en" data-page="1" hidden>
+      <h2>How to use it</h2>
+      <ol>
+        <li>Tick a region first. The page starts at 0 schools. One click includes that region, another click removes it. All becomes None once every region is on.</li>
+        <li>Search matches the Chinese name and the English name.</li>
+        <li>Choosing a subject adds a QS subject slider inside Ranking. With no subject, that piece stays out.</li>
+        <li>The five sliders are Ranking, Labs, Industry links, Setting, and Tuition. The number is that item’s share of the result. The five cannot add past 100. Unused room stays unused.</li>
+        <li>State-owned, Energy, Big tech, and Foreign firms only reset the QS, THE, and U.S. News mix. Dragging one of those three clears the four chips.</li>
+        <li>Setting needs a campus type first. A match scores 100. A miss scores 40. An unlabeled campus is skipped.</li>
+        <li>Tuition needs a highest tuition, in 10,000 CNY per year. At or under the cap, the score is (cap − tuition) / cap × 100. Over the cap, the score is 0. With no cap, tuition is skipped.</li>
+        <li>The arrow on a card opens the breakdown. The language switch sits at the top left of the page.</li>
+      </ol>
+    </div>
+    <div data-lang-block="en" data-page="2" hidden>
+      <h2>Sources and scoring</h2>
+      <p>This is a shortlist you weight yourself. It is not an official ranking, and it is not an admissions decision. A missing number is skipped. Its weight is not given to the other items.</p>
+      <p>Ranks come from three world lists, plus a QS subject list:</p>
+      <ul>
+        <li><a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener">QS World University Rankings</a>. Schools with an exact rank through 697 are included. Bands from 701–710 are left out. Joint programs are a separate region, and most have no world rank.</li>
+        <li><a href="https://www.timeshighereducation.com/world-university-rankings" target="_blank" rel="noopener">Times Higher Education World University Rankings</a>. Rank, research environment, and industry come from here. Many later places are published as a band, and this page uses the start of that band.</li>
+        <li><a href="https://www.usnews.com/education/best-global-universities/rankings" target="_blank" rel="noopener">U.S. News Best Global Universities</a>.</li>
+        <li>A QS subject rank is that subject list’s own number. The subjects are Computer Science, Electrical Engineering, Business and Management, Economics, Mathematics, Physics and Astronomy, Chemistry, Medicine, and Biological Sciences.</li>
+      </ul>
+      <p>All four ranks use one step table. The badge on a card is the published rank. The breakdown shows the converted score. The steps are 50, 100, 150, 200, and 500. Inside a step the score moves a little. Crossing a step drops it. Rank 1 scores 100. Rank 1000 and after score 0.</p>
+      <table>
+        <thead><tr><th>Rank</th><th>Score</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>100</td></tr>
+          <tr><td>50</td><td>93.8</td></tr>
+          <tr><td>51</td><td>81.3</td></tr>
+          <tr><td>100</td><td>75.0</td></tr>
+          <tr><td>101</td><td>62.5</td></tr>
+          <tr><td>150</td><td>56.3</td></tr>
+          <tr><td>200</td><td>37.5</td></tr>
+          <tr><td>500</td><td>18.8</td></tr>
+          <tr><td>501</td><td>6.3</td></tr>
+          <tr><td>1000 and after</td><td>0</td></tr>
+        </tbody>
+      </table>
+      <p>The steps follow published talent and settlement notices:</p>
+      <ul>
+        <li><a href="https://rsj.sh.gov.cn/tsj_17090/20220608/t0035_1407350.html" target="_blank" rel="noopener">Shanghai HRSS, 8 June 2022</a>: top 50 and 51–100 were different settlement paths. That measure ran through June 2023.</li>
+        <li><a href="http://gzw.lyg.gov.cn/lygsrmzfgyzcjdglwyh/tzgg/content/1ab79f2f-d42c-434f-8186-b17562f0135b.html" target="_blank" rel="noopener">Lianyungang SASAC, 2026 municipal SOE hiring</a>: QS world top 100.</li>
+        <li><a href="https://www.szns.gov.cn/hdjlpt/detail?pid=3146874" target="_blank" rel="noopener">Shenzhen Nanshan HR bureau, 28 April 2025</a>: any one of four rankings in the top 150.</li>
+        <li><a href="https://www.fuzhou.gov.cn/zwgk/tzgg/202603/t20260303_5290788.htm" target="_blank" rel="noopener">Fuzhou HRSS, 24 February 2026</a>: ARWU, QS, or THE top 200.</li>
+        <li><a href="https://service.shanghai.gov.cn/XingZhengWenDangKuJyh/XZGFDetails.aspx?docid=251211153125AXa5k6Rx23GCtI2Tuh4" target="_blank" rel="noopener">Shanghai talent rule, 2025</a> sets a high-level university at the top 500. The <a href="https://www.beijing.gov.cn/fuwu/bmfw/bmzt/gzjzhzh/hdq/202609/P020260918561859215429.pdf" target="_blank" rel="noopener">Haidian youth work-residence guide</a> uses the same line.</li>
+      </ul>
+      <p>Those notices also name ARWU. This page has no ARWU ranks, so ARWU is not scored. The full weight math is in the <a href="README.md" target="_blank" rel="noopener">README</a>.</p>
+      <p>Labs use the THE research-environment score and the QS faculty/student score. Industry links use the THE Industry score. Those three are already scores from 0 to 100, so they are not run through the rank steps.</p>
+      <p>Tuition comes from <a href="https://studypath.cc/dataset" target="_blank" rel="noopener">StudyPath</a> (<a href="https://doi.org/10.5281/zenodo.22979730" target="_blank" rel="noopener">doi:10.5281/zenodo.22979730</a>, CC BY 4.0). It is the cheapest annualizable international fee StudyPath recorded for that university. It can be an undergraduate course, and it can be 0. It is not one master’s invoice. Dollars use the <a href="https://www.frankfurter.app/" target="_blank" rel="noopener">Frankfurter</a> rate on 20 November 2026: 1 USD = 6.6777 CNY. Housing and living costs are not part of this item.</p>
+      <p>Campus type is a label on this page, so you can match a college town, a city, a city centre, a district, or the countryside. It is not a published environment index. An unlabeled school skips Setting.</p>
+    </div>
+    <div class="guide-nav">
+      <button type="button" class="text-btn" id="guide-prev"></button>
+      <span id="guide-step">1 / 2</span>
+      <button type="button" class="text-btn" id="guide-next"></button>
+    </div>
+  </dialog>
+  <script src="app.js?v=49"></script>
 </body>
 </html>
